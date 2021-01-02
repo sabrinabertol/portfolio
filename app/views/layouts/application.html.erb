@@ -12,6 +12,24 @@
   </head>
 
   <body>
-    <%= yield %>
+  <div id="body">
+    <div id="navbar">
+      <%= render "shared/navbar" %>
+    </div>
+
+        <p>fhjfsk</p>
+        <div class="col" id="central-container">
+          <%= yield %>
+        </div>
+        <p>sdksaf</p>
+
+    <div id="footer">
+      <%= render "shared/footer" %>
+    </div>
+  </div>
+
+
+
+
   </body>
 </html>
