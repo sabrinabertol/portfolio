@@ -12,24 +12,24 @@
   </head>
 
   <body>
-  <div id="body">
-    <div id="navbar">
-      <%= render "shared/navbar" %>
-    </div>
-
+    <div id="body">
+      <div id="navbar">
+        <%= render "shared/navbar" %>
+      </div>
+      <div class="left">
         <p>fhjfsk</p>
-        <div class="col" id="central-container">
+      </div>
+      <div id="central-container">
+        <div>
           <%= yield %>
         </div>
+      </div>
+      <div class="right">
         <p>sdksaf</p>
-
-    <div id="footer">
-      <%= render "shared/footer" %>
+      </div>
+      <div id="footer">
+        <%= render "shared/footer" %>
+      </div>
     </div>
-  </div>
-
-
-
-
   </body>
 </html>
