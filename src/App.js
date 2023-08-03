@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
-import Timeline from "./Timeline";
-import Hero from "./Hero";
-import Footer from "./Footer";
+import Timeline from "./components/Timeline";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
