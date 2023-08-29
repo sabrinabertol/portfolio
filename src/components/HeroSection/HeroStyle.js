@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -198,15 +197,12 @@ export const ResumeButton = styled.a`
     background: ${({ theme }) => theme.primary};
    
     &:hover {
-        transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-
+      transform: scale(1.05);
+      transition: all 0.4s ease-in-out;
     }    
-    
     
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
     } 
-
 `;

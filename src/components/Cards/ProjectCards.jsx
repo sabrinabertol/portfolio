@@ -19,18 +19,16 @@ const Card = styled.div`
     width: 330px;
     height: 490px;
     background-color: ${({ theme }) => theme.card};
+    border: 0.5px solid ${({ theme }) => theme.primary + 80};
     cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
     overflow: hidden;
-    padding: 26px 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 14px;
     transition: all 0.5s ease-in-out;
     &:hover {
         transform: translateY(-10px);
-        box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
         filter: brightness(1.1);
     }
     &:hover ${Button} {
@@ -42,8 +40,6 @@ const Image = styled.img`
     width: 100%;
     height: 180px;
     background-color: ${({ theme }) => theme.white};
-    border-radius: 10px;
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
 `
 
 const Tags = styled.div`
@@ -74,7 +70,7 @@ const Details = styled.div`
 const Title = styled.div`
     font-size: 20px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_secondary};
+    color: ${({ theme }) => theme.text_primary};
     overflow: hidden;
     display: -webkit-box;
     max-width: 100%;
@@ -118,8 +114,6 @@ const Avatar = styled.img`
     border-radius: 50%;
     margin-left: -10px;
     background-color: ${({ theme }) => theme.white};
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    border: 3px solid ${({ theme }) => theme.card};
 `
 
 const ProjectCards = ({project,setOpenModal}) => {

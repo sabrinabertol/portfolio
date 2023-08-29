@@ -20,7 +20,6 @@ transition: all 0.5s ease;
 const Wrapper = styled.div`
 max-width: 800px;
 width: 100%;
-border-radius: 16px;
 margin: 50px 12px;
 height: min-content;
 background-color: ${({ theme }) => theme.card};

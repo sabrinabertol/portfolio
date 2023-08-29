@@ -22,6 +22,7 @@ const Body = styled.div`
 `
 
 const Wrapper = styled.div`
+clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
 function App() {
   const [darkMode, setDarkMode] = useState(true);
