@@ -130,7 +130,6 @@ const EducationCard = ({ education }) => {
         </Body>
       </Top>
       <Grade>
-        <b>Grade: </b>
         {education.grade}
       </Grade>
       <Description>

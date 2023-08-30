@@ -14,13 +14,13 @@ const HeroSection = () => {
                     <HeroLeftContainer id="Left">
                         <Title>Hey there, I'm {Bio.name}</Title>
                         <TextLoop>
-                            I am a
+                            I am a/an
                             <Span>
                                 <Typewriter
                                     options={{
                                         strings: Bio.roles,
                                         autoStart: true,
-                                        loop: true,
+                                        speed: 500,
                                     }}
                                 />
                             </Span>

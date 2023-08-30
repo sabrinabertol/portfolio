@@ -34,6 +34,12 @@ const Card = styled.div`
     &:hover ${Button} {
         display: block;
     }
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 0px 10px;
+      }
 `
 
 const Image = styled.img`

@@ -51,8 +51,6 @@ const Date = styled.div`
     }
 `
 
-
-
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
@@ -67,9 +65,7 @@ const Desc = styled.div`
 const Image = styled.img`
     width: 100%;
     object-fit: cover;
-    border-radius: 12px;
     margin-top: 30px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 `;
 
 const Label = styled.div`
@@ -128,7 +124,6 @@ const MemberImage = styled.img`
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 4px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
     @media only screen and (max-width: 600px) {
         width: 32px;
         height: 32px;
@@ -160,7 +155,6 @@ const Button = styled.a`
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary};
     padding: 12px 16px;
-    border-radius: 8px;
     background-color: ${({ theme }) => theme.primary};
     ${({ dull, theme }) => dull && `
         background-color: ${theme.bgLight};
