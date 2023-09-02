@@ -181,6 +181,14 @@ export const SubTitle = styled.div`
   }
 `;
 
+export const SubTitleSmall = styled.div`
+  font-size: 16px;
+  @media (max-width: 640px) {
+    font-size: 12px;
+    line-height: 32px;
+  }
+`;
+
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;

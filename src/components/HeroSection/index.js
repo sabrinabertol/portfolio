@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroContainer, ImageTitle, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './HeroStyle'
+import { HeroContainer, ImageTitle, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SubTitleSmall, ResumeButton } from './HeroStyle'
 import HeroImg from '../../images/HeroImage.JPEG'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -25,7 +25,12 @@ const HeroSection = () => {
                                 />
                             </Span>
                         </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
+                        <SubTitle>{Bio.description}
+                        <SubTitleSmall>
+                        (But if you want, you can still check mine below! 😉)
+                        </SubTitleSmall>
+                        </SubTitle>
+           
                         <ResumeButton href={Bio.resume} target='display'>Check my CV!</ResumeButton>
                     </HeroLeftContainer>
 

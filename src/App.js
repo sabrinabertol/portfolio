@@ -22,8 +22,11 @@ const Body = styled.div`
 `
 
 const Wrapper = styled.div`
-clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
+  background: "#1C1E27";
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
+
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)

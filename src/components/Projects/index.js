@@ -21,22 +21,22 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Development</ToggleButton>
+          {toggle === 'dev' ?
+            <ToggleButton active value="dev" onClick={() => setToggle('dev')}>Development</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Development</ToggleButton>
+            <ToggleButton value="dev" onClick={() => setToggle('dev')}>Development</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Design</ToggleButton>
+          {toggle === 'design' ?
+            <ToggleButton active value="design" onClick={() => setToggle('design')}>Design</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Design</ToggleButton>
+            <ToggleButton value="design" onClick={() => setToggle('design')}>Design</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>Art</ToggleButton>
+          {toggle === 'art' ?
+            <ToggleButton active value="art" onClick={() => setToggle('art')}>Art</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>Art</ToggleButton>
+            <ToggleButton value="art" onClick={() => setToggle('art')}>Art</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

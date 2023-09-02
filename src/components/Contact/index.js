@@ -11,6 +11,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+margin-bottom: 5%;
 @media (max-width: 960px) {
     padding: 0px;
 }
@@ -130,7 +131,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_h0o0jfo', 'template_5bj79zv', form.current, 'eBgfLttQR00MYrERp')
       .then((result) => {
         setOpen(true);
         form.current.reset();

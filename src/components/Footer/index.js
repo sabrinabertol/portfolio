@@ -5,13 +5,17 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
+  background-color: ${({ theme }) => theme.card_light};
   width: 100%;
+  clip-path: polygon(0 0, 80% 24%, 100% 0, 100% 100%, 0 100%);
+
   padding: 2rem 0;
   display: flex;
   justify-content: center;
 `;
 
 const FooterWrapper = styled.footer`
+  margin-top: 5%;
   width: 100%;
   max-width: 1200px;
   display: flex;

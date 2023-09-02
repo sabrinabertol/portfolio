@@ -64,6 +64,7 @@ const Desc = styled.div`
 
 const Image = styled.img`
     width: 100%;
+    max-height: 500px;
     object-fit: cover;
     margin-top: 30px;
 `;
@@ -219,12 +220,18 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        {project?.github && (
+                        <Button dull href={project?.github} target='new'>
+                            View Code
+                        </Button>
+                        )}
+
+                        <Button href={project?.website} target='new'>
+                        View Website
+                        </Button>
                     </ButtonGroup>
                 </Wrapper>
             </Container>
-
         </Modal>
     )
 }

@@ -4,18 +4,16 @@ export const Bio = {
     "Architect",
     "Urban Planner",
     "Frontent Developer",
-    "Full Stack Developer",
     "UI/UX Designer",
     "Programmer",
     "Artist",
     "Web Designer",
-    "Illustrator",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "It is hard to describe myself in a single word. I am an architect who turned web developer, but I also love design, music, arts and many other things. I decided to take this chance to show some of my work in different areas, because experiences are also lived outside of work, and people are more than just a set of skills!",
   github: "https://github.com/sabrinabertol",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1642m3jS-YxhPnqFPYwP5iR1UXAdV8g10/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sabrinabertol/",
   insta: "https://www.instagram.com/sabrina_bertol/",
 };
@@ -63,11 +61,30 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
       },
+      {
+        name: "Elementor",
+        image:
+          "https://elementor.com/marketing/wp-content/uploads/2021/10/Elementor-Logo-Symbol-Red.png",
+      },
     ],
   },
   {
     title: "Backend",
     skills: [
+      {
+        name: "Ruby",
+        image:
+          "https://icon-library.com/images/ruby-icon-png/ruby-icon-png-6.jpg",
+      },
+      {
+        name: "Ruby on Rails",
+        image:
+          "https://www.svgrepo.com/show/376345/rails.svg",
+      },
+      {
+        name: "Node Js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
       {
         name: "MySQL",
         image:
@@ -81,24 +98,6 @@ export const skills = [
         name: "Postman API",
         image:
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      },
-      {
-        name: "Ruby",
-        image:
-          "https://icon-library.com/images/ruby-icon-png/ruby-icon-png-6.jpg",
-      },
-      {
-        name: "Ruby on Rails",
-        image:
-          "https://www.svgrepo.com/show/376345/rails.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
       },
     ],
   },
@@ -124,11 +123,6 @@ export const skills = [
         name: "Adobe InDesign",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/2101px-Adobe_InDesign_CC_icon.svg.png",
-      },
-      {
-        name: "Elementor",
-        image:
-          "https://elementor.com/marketing/wp-content/uploads/2021/10/Elementor-Logo-Symbol-Red.png",
       },
     ],
   },
@@ -167,15 +161,14 @@ export const experiences = [
     role: "Google Search Quality Specialist & Jr. Developer",
     company: "Qualitest",
     date: "Apr 2021 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    desc: "Working as a Manual QA tester for major Google releases and as a Junior Developer for internal projects",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
+      "JavaScript",
+      "TypeScript",
       "HTML",
       "CSS",
-      "JavaScript",
+      "Quality Assurance",
+      ""
     ],
   },
   {
@@ -184,7 +177,7 @@ export const experiences = [
     role: "Frontend Developer",
     company: "Demium International Talent Investor",
     date: "Jan 2021 - Apr 2021",
-    desc: "Contributing to different open-source projects and learn from industry experts",
+    desc: "",
     doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
   },
   {
@@ -193,18 +186,12 @@ export const experiences = [
     role: "Social Media Manager",
     company: "aparticula",
     date: "Sep 2016 - Jan 2017",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    desc: "",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
       "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
+      "Google Analytics",
+      "Social Media Marketing",
+      "Content Management"
     ],
   },
   {
@@ -238,44 +225,44 @@ export const education = [
     img: "https://www.bestarchitecturemasters.com/wp-content/uploads/2020/03/logo-universidade-de-lisboa.jpg",
     school: "Universidade de Lisboa",
     date: "Sep 2016 - Feb 2020",
-    degree: "Master of Architecture and Urban Planning - MArch, Architecture",
+    degree: "Master of Architecture and Urban Planning",
   },
   {
     id: 2,
     img: "https://sase.org/wp-content/uploads/2017/03/UFRGS-Logo-Cartagena.jpg",
     school: "Universidade Federal do Rio Grande do Sul (UFRGS)",
     date: "Apr 2017 - Apr 2019",
-    degree: "Bachelor of Architecture - BArch, Architecture",
+    degree: "Bachelor of Architecture",
   },
 ];
 
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "I Exist",
+    date: "Jan 2021 - Present",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8hCpqpV8fwBjE-nSmW5zHk3lxI-CnVR4DQHU7oZzfhuFTDF_8MGZCgO9_lLrO_joISUgJU1BoslZiYnetkrYjKVbWPqsS0Qi0nKi_ZX7X2zMqqEF6xALjoIi2ZZM1BEDwoVAT0hkUvfrGFE3bbWEr1Re0qRt-HLbVKRNsvUUuxcRadv5RDCrgruXOuUGGcHlRrXfBsuq5wTyrmDufaAksFcvdO7XeZ5ioZMDzpUe7pd7DilspHCLdqx0H1ilhKFM6Cj5GLPLQATEP8szQ8UsWoO6POUX5T5CkRZoflCvIh8wQcOsnxVMxXZImutrLF1DYJ-plkFgjynD-yQ9fS9XLD-UaAzi9iSxQxfQvv_ImPGA-oIfI0G1GlbzvqC9XzxyqmgdgPdxXT1w8wU7KY56Pte9-VFZE34gQiJwKON0sMByA96Or24MTMpmaX7cRkYWtMebVIdzSLj1bD0OsMgrlQtppmVLfO6SCFm2pDGHHwpvkn_7OK3KM2JyAj4aeGk7p_sT3wSXGV5yD-lYdeOYMJ1bj-jPUD7kUGLoXO2RIsHJ9AsUX5BmCSbuc5Mjzl9FZ1NOyPjdhqjA7WjmUDrEuqoYe52Q0-N06N9lqGviCXq4CCrNNS04LZwOM_UsBpAPvnuCEZMIXjfCTzqCBztg68A3m1_0nzJwQg29H1lE6dTK_hK3BdIhYQYlaIRXiaLgumumXx7tHfWMnn8to4CcrvwfMZ7OaPtImViWi-Bryv4MARD7Y75MsjDXnMQLlsyBgIIR5Vcj8OrYMBr-A-OfrSegdpdoHa0DB60-Lsxgo9apBdrLgV3_1JYZmJ2QX0zbxbMX67FX3srXzU4LNxpOL4Ios-npz36ghmMhZpMKWokLDx9RMjzOSbnOzluqQVSsgCVTOpEVdSwXrNCqTjLgwuVyQ=w2442-h1220-s-no?authuser=0",
+    tags: [ "HTML", "CSS", "JavaScript"],
+    category: "dev",
+    github: "https://github.com/sabrinabertol/iexist",
+    website: "https://sabrinabertol.github.io/iexist/",
   },
   {
+    id: 9,
+    title: "DARC Website",
+    date: "Jul 2022",
+    description:
+      "",
+    image:
+      "https://lh3.googleusercontent.com/pw/AIL4fc_lwyN7DB6HqqFDB4zURV0j6L9HR5PeeU1Kh3jyNddMil7AoOrOqCTR1NZ2C0oPSxFHocXeXwgebrWM-h_6Fa9yqwW93ur54tbmLKcp1P4yp8sqQzMjf2Pn9skVO0tVUtVpY3slGIBeUNYWQpIG9Itjb4dngLB75d8LpMOf1wSP16jnY1YT2bsa29O0S1r7X-i3SMHF0jLrJvK5q8ms14rrkgXuRwUMnMnQekncCVI_XmMUDN0AWefWq8LR8Mr1kxLPUkb-MQ0-dtui6_fqj9CzDAdXsJg8hNIe8sreRDwk2BIZvVJ7re645hJY2B8XmaiSTB1Td5S-JW86QK-QEfaBWnLsE0kFwT_pKqA9NVm4gVM2lgqw4WlmwNLTgQxRLpRZA62vmorTPJeilscf_gV71AEWmztVA-RePp2By0l6Ge2FCzBy6WOx2Tq7eXRIAdEHOaJSLqtOk2iFiZaoO5zkMOvwEwy14BVwuU-TpJ1hGAGkopF8JIqtRz-v8HKUjcyBhgJW8aaiyktk8Or0juKXiytE4SDKihPA5wVPclkaPfw6jZNJNM7XI0Dwu2rLDb5saNHk7C5oAaNMtrUV5104uWdL6l0nTwnwoCRD7QEv0O30JUBl5aBZ5Wxyde1uZGbb8BdMdkwm09K-Cf5AuFzlELPIuuQ0e0uWHATco5lRfUQdFmJU16kwtLYaWyxgdRmTuEiU1KElDZW5LgYoQ29-yi6YVQytr1lUM6IIxNkIifc-pLV2TdsQDGbmBLaDycsGkcd-eyxrhea8jH1CpBNNCzKMVkyoKw1ObbMuLC8t7NGftVC9atn39cBIf8g-kYLZHQeRGRvFHe3r2OFyGGZIW1Ts4STNVU0Sn9QC0-WsiU8GnIRHY0EnHckDXTEdUUT16leYD4q5GMGelUDuLrRf8f0=w718-h278-no?authuser=0",
+    tags: [ "WordPress", "Elementor", "Adobe Illustrator"],
+    category: "design",
+    website: "https://darc.pt/",
+  },
+  /*{
     id: 0,
     title: "Podstream",
     date: "Apr 2023 - May 2023",
@@ -284,9 +271,9 @@ export const projects = [
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
+    category: "design",
     github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    website: "https://podstream.netlify.app/",
     member: [
       {
         name: "Rishav Chanda",
@@ -301,52 +288,31 @@ export const projects = [
         github: "https://github.com/upasana0710",
       },
     ],
+  },*/
+  {
+    id: 2,
+    title: "Digital Drawings",
+    date: "",
+    description:
+      "",
+    image:
+      "https://lh3.googleusercontent.com/pw/AIL4fc-ffXb0LSXzM0lqNRg3brf6gjcxPnF368W97ivzNojUF00Af9c_JjmKlyp6KDOq3q6C45xCcBv4J2X8vAz-fZrFLaFS6f3j_Un2Eok1qJ4TljRcw3tnyv2fZdvq-4EuaOt2ATeOUaEpk_p-wE3xfHrU01BP9xCQje8w_yWwWJGSd3VBQ4tcQ5YTE2eYUvHEld1-wEtibNqSQWjnESUfc_XVgBfOYATjLzrZOY-H4eIuBsgLvKmhthsrKE4Ffd5_2Qtfo4za2fzwUjmeE9fB8LHOjKdJ1hGNJTl1DqLMomXBuJ9z_1q21H93vmnqU1Fojo-spvZvnuLyvfimuMcNZtJiTRLxS_gQg58O_Q-J5sWFcLlaGmtrLUc4nlmKRXxdFv4z3dwGgncNMHp7u_YUZ_WUeri4I-x2lDbwiAy-bw12apdq48DRxIGG2QFrD2PBpx3tx3uUsS3elrqD3W-mxofAH53EEIFjCrcOEgkumZsup_wgNYOKziYv8c24xPqNlrN2Xf3z1MxTgzgtP1GmEAqLvzFqC0GHjyAipnCPzgD77KIxJr0gsnCKdujNMblWXoT3pLFjAJIrcWjlvR95TeBh3PVeVRPEDvdWir2yFg5QEnw8YE9ELIOzPOm4T4WyUGEjwDuc0hrhkCGMBza2RWpRSe7e4gB5bih05yicnWor1kobhCpWtaXGOMLDRe85Iprq6S4wXtScgwRdvmoqseDAzhzPryfnrSNYTCfuhp72Pp_7gzbDU-WG0t0zbwixrrxgYqbPGU5DzBXGNnAFDeWu-MXvt87TEBYHuW7ryYc8pTDY6mooSa3i1DYmTlGrT7q4CtsisJJX4RC2crzpf22HHHBw7Kf9XF4RPrbWc12bWomACn6938ePOSLC4HmZkJI-lyxk2r0YOThnnsfyR3whoe4=w2048-h1366-s-no?authuser=0https://lh3.googleusercontent.com/pw/AIL4fc-ffXb0LSXzM0lqNRg3brf6gjcxPnF368W97ivzNojUF00Af9c_JjmKlyp6KDOq3q6C45xCcBv4J2X8vAz-fZrFLaFS6f3j_Un2Eok1qJ4TljRcw3tnyv2fZdvq-4EuaOt2ATeOUaEpk_p-wE3xfHrU01BP9xCQje8w_yWwWJGSd3VBQ4tcQ5YTE2eYUvHEld1-wEtibNqSQWjnESUfc_XVgBfOYATjLzrZOY-H4eIuBsgLvKmhthsrKE4Ffd5_2Qtfo4za2fzwUjmeE9fB8LHOjKdJ1hGNJTl1DqLMomXBuJ9z_1q21H93vmnqU1Fojo-spvZvnuLyvfimuMcNZtJiTRLxS_gQg58O_Q-J5sWFcLlaGmtrLUc4nlmKRXxdFv4z3dwGgncNMHp7u_YUZ_WUeri4I-x2lDbwiAy-bw12apdq48DRxIGG2QFrD2PBpx3tx3uUsS3elrqD3W-mxofAH53EEIFjCrcOEgkumZsup_wgNYOKziYv8c24xPqNlrN2Xf3z1MxTgzgtP1GmEAqLvzFqC0GHjyAipnCPzgD77KIxJr0gsnCKdujNMblWXoT3pLFjAJIrcWjlvR95TeBh3PVeVRPEDvdWir2yFg5QEnw8YE9ELIOzPOm4T4WyUGEjwDuc0hrhkCGMBza2RWpRSe7e4gB5bih05yicnWor1kobhCpWtaXGOMLDRe85Iprq6S4wXtScgwRdvmoqseDAzhzPryfnrSNYTCfuhp72Pp_7gzbDU-WG0t0zbwixrrxgYqbPGU5DzBXGNnAFDeWu-MXvt87TEBYHuW7ryYc8pTDY6mooSa3i1DYmTlGrT7q4CtsisJJX4RC2crzpf22HHHBw7Kf9XF4RPrbWc12bWomACn6938ePOSLC4HmZkJI-lyxk2r0YOThnnsfyR3whoe4=w2048-h1366-s-no?authuser=0",
+    tags: ["Adobe Illustrator", "Drawing", "Creativity", "Art"],
+    category: "art",
+    website: "https://sabrinabertol.myportfolio.com/illustrator",
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+    title: "Hand Drawings",
+    date: "",
+    description: 
+      "Since 2022, I went back to hand drawings. I work mostly with lines and simples shapes, that at the beginning look very boring and meaningless, but as I keep drawing, they start to make sense and become more complex. I like to draw with a black pen, because it forces me not to hurry and accept imperfections.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9kzwg1q47fGIyrdYc0pgxpvdqp5XNq8FhiLy07I65eL2uc979g9_vOTmwx-TvYhV8JyGDZuW0vW6Ox7nUCakjh_n7JGiNVS9YlXCmmy4EApLTnVVnqZ6QWG81gEAmlECr5meoDcVF0qFnKs8mRpodOBBFIiTMJ318TgfxpAXG9eqF6LoIqvy8xyfzP1yIBqdMj-f1TlZ_Yssiskc9gioPwElxt0P6gwVVKvgWDEQSW3sVM4qbJAde0dOpxpeNPfITx_wSynIGIoOGBwhQuPzWU30FMzINB5GFFsHov2Oz9w6cIkIvCb52562-0VX6NJcA2DDnMM-Rq7C-HXBhLdRHXu64Eqh_fZ5-dtAdcIMFNJnLqb_7cHpBIfuxTFfTa_ftKs5rvonCqnn3T7FhV8kU6MnCK2rTSXVMqcb_9Io0GbG-wtOjrfBM8ds-8GV9qY3PyL6prh5x4z-2NL1It_EblAgfAHcntwzegwb4tUduZQh9cl4idwfqVzrqp4U6WoTfx_B-n6_JtjiFMhCyrj618ch4RiOgEdVm-2OUB-oy9QG4hBaZQSzs7GBPf5ffTQA5uwEwazJEIbWJvZ40U4GdMHnjVLmMCyzyvS1qdUbRW3WpgdjKv1Dw5lM0KGX9EoLxtHAeWwRz8tnteuyB9FE8LXvkiZN3zeemhGreB12-tUF5HXOGQngeA9FsWFyn4zZvkk2BR_rFEW1-aPChkenOl7Lt401em8Uz4TEEEHMhJK4oJ5X3nTg3-ypi5XOewPGiczhZYETHGJrfzhHdgARvW_7nCzMogGvGYx9CFFTQSf0NgNGXANa72DYRMeBFCnvsJVPqvxfTZa01wMw0xluLI-LW5tlq9jKNmpwS-lXpJ80AxWUx3rcnepoATbXFE1LxdbqjFi3qQ9l1gNgA7E4Wd9q0=w890-h1280-s-no?authuser=0",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Drawing", "Patience", "Creativity", "Art"
     ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    category: "art",
+    website: "https://www.instagram.com/sabrina_bertol/",
   },
 ];

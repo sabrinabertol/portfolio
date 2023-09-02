@@ -45,6 +45,7 @@ const Card = styled.div`
 const Image = styled.img`
     width: 100%;
     height: 180px;
+    object-fit: cover;
     background-color: ${({ theme }) => theme.white};
 `
 
