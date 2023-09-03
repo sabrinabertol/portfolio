@@ -53,39 +53,37 @@ const SkillsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
-  gap: 30px;
   justify-content: center;
 `;
 
 const Skill = styled.div`
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   background: ${({ theme }) => theme.card};
+  border: 0.5px solid ${({ theme }) => theme.bgLight};
   padding: 36px 18px;
   @media (max-width: 768px) {
-    max-width: 400px;
-    padding: 18px 24px;
+    padding: 18px 16px;
   }
   @media (max-width: 500px) {
-    max-width: 330px;
-    padding: 18px 24px;
+    padding: 18px 16px;
   }
-`;
-
-const SkillTitle = styled.h2`
-  font-size: 28px;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
-  margin-bottom: 20px;
-  text-align: center;
 `;
 
 const SkillList = styled.div`
-  display: flex;
   justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
+  margin-bottom: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
   gap: 12px;
-  margin-bottom: 20px;
+  place-items: center;
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 `;
 
 const SkillItem = styled.div`
@@ -93,10 +91,12 @@ const SkillItem = styled.div`
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
   padding: 12px 16px;
-  display: flex;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   gap: 8px;
+  place-items: center;
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -124,7 +124,6 @@ const Skills = () => {
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill>
-              <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem>

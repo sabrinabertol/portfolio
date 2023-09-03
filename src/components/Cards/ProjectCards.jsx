@@ -1,79 +1,50 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
-const Button = styled.button`
-    display: none;
-    width: 100%;
-    padding: 10px;
-    background-color: ${({ theme }) => theme.white};
-    color: ${({ theme }) => theme.text_black};
-    font-size: 14px;
-    font-weight: 700;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.8s ease-in-out;
-`
 const Card = styled.div`
-    width: 330px;
-    height: 490px;
-    background-color: ${({ theme }) => theme.card};
-    border: 0.5px solid ${({ theme }) => theme.primary + 80};
-    cursor: pointer;
-    overflow: hidden;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    transition: all 0.5s ease-in-out;
-    &:hover {
-        transform: translateY(-10px);
-        filter: brightness(1.1);
-    }
-    &:hover ${Button} {
-        display: block;
-    }
-    @media (max-width: 768px) {
-        width: 100%;
-        height: auto;
-        padding: 20px;
-        margin: 0px 10px;
-      }
-`
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-color: ${({ theme }) => theme.card};
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    transform: translateY(-10px);
+    filter: brightness(1.1); 
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 200px;
+  }
+`;
 
 const Image = styled.img`
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    background-color: ${({ theme }) => theme.white};
-`
+width: 100%;
+height: 100%;
+object-fit: cover; 
 
-const Tags = styled.div`
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 4px;
-`
-
-const Tag = styled.span`
-    font-size: 12px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.primary};
-    background-color: ${({ theme }) => theme.primary + 15};
-    padding: 2px 8px;
-    border-radius: 10px;
-`
+`;
 
 const Details = styled.div`
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    padding: 0px 2px;
-`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 30px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+
+  ${Card}:hover & {
+    opacity: 1;
+  }
+`;
+
 const Title = styled.div`
     font-size: 20px;
     font-weight: 600;
@@ -97,7 +68,6 @@ const Date = styled.div`
     }
 `
 
-
 const Description = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -110,39 +80,15 @@ const Description = styled.div`
     text-overflow: ellipsis;
 `
 
-const Members = styled.div`
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-`
-const Avatar = styled.img`
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    margin-left: -10px;
-    background-color: ${({ theme }) => theme.white};
-`
-
 const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
-            <Tags>
-                {project.tags?.map((tag, index) => (
-                <Tag>{tag}</Tag>
-                ))}
-            </Tags>
-            <Details>
-                <Title>{project.title}</Title>
-                <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
-            </Details>
-            <Members>
-                {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
-                ))}
-            </Members>
-            {/* <Button>View Project</Button> */}
+        <Image src={project.image}/>
+        <Details>
+          <Title>{project.title}</Title>
+          <Date>{project.date}</Date>
+          <Description>{project.description}</Description>
+        </Details>
         </Card>
     )
 }

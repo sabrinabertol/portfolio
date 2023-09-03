@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background: ${({ theme }) => theme.card};
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     z-index: 1;
     align-items: center;
-    margin-bottom:10%
+    margin-bottom: 10%; 
 `;
 
 export const Wrapper = styled.div`
@@ -81,21 +80,18 @@ export const Divider = styled.div`
     background: ${({ theme }) => theme.primary};
 `
 
-
 export const CardContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 28px;
     flex-wrap: wrap;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-gap: 32px;
-    // grid-auto-rows: minmax(100px, auto);
-    // @media (max-width: 960px) {
-    //     grid-template-columns: repeat(2, 1fr);
-    // }
-    // @media (max-width: 640px) {
-    //     grid-template-columns: repeat(1, 1fr);
-    // }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    @media (max-width: 960px) {
+         grid-template-columns: repeat(2, 1fr);
+     }
+     @media (max-width: 640px) {
+         grid-template-columns: repeat(1, 1fr);
+     }
 `;

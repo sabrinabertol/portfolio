@@ -8,10 +8,12 @@ const FooterContainer = styled.div`
   background-color: ${({ theme }) => theme.card_light};
   width: 100%;
   clip-path: polygon(0 0, 80% 24%, 100% 0, 100% 100%, 0 100%);
-
   padding: 2rem 0;
   display: flex;
   justify-content: center;
+  @media (max-width: 768px) {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 `;
 
 const FooterWrapper = styled.footer`
