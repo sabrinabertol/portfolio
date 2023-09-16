@@ -232,6 +232,19 @@ export const projects = [
   },
   {
     id: 9,
+    title: "Quote of the Day",
+    date: "August 2023",
+    description:
+      "",
+    image:
+      "https://lh3.googleusercontent.com/pw/AIL4fc--KKEnQn9yojwzlaPg8Y8tGuSw2JMJ6eYNgWMlTaS_3PwcF-pIv6zFuaZJC1PaAwOvznYM3qupIeq9ntuHAIsJ88LmQN9dDrc-HJ3VTudEXaCpwWbm4RME6TlXrjWzSfWFJP1SDnbu4TrnqZ4pQDj3uQAvKlLAncIb4b_xabD8Bfi-K6hBy0SW5pGl37xNwXjisfW8UtSJvhFJKa7z8id20FEn1w5WhatvwVnI5HU-LRbUCCfA_NHxBNXrn5fx3f3rTP2OQcDpjyK4XXvkDwcyRFlTA7bKRmGlxfDYLtez2BGz-zgIpsI7b6v2bn59cj2SBqaXOPb83GtkEry-kjbkChh1HcT_NZj1KHgik_J6603BrvSRxPmygSTuoybpQaK3fJnqQIn3FF85kfuHzDmttA-PYdgdAu2NZkSKC1NIqn3jVTyyLMphoxrN0kPl84RxuS-VrDaEoIT5xQPbi0F4XoFYwg9ew2iYaBgeHdGERYwyyFShho1SZo4K4tahEtXcvJ3Tot-zqqw_RPgWaKQEAkSE9xnU1yKwB00g-y6t5489Z6rReQkvtufrUWn2bVMaZ7R3nzY8Gi7fpyZV3CvtTC7gQ0Gr1gA8E0k2xFP4D49LWmGuTY91_I05iMvb8Foo95oLNwg-xwd34Q8vjZR9whgJYptnm9NROEZUftpJTgjI9CpfEvqK1A24Ja72jGs9baeVr42J7a05Eaz5TbZhamlDrtO4T7XQmV6NfZoicYxkQFMnHmcMVcdGZUAZmbdddyrd4mVEoTZVV-eifOWNHVj7wzD2Y1PCnVOHMgxJNq1ZVCj0kTrKj2O-5ZbukTUwWT3HjqqLRmOYNZ2sRSQHmNCIP2PQ6dirPcOFp_UZKoTxUvBM-fKLRmjqYxmyrPUvGXMn5FLf2CMeTYk5eveT-Xc=w2526-h1360",
+    tags: [ "ChatGPT", "React", "HTML", "CSS", "JavaScript"],
+    category: "dev",
+    github: "https://github.com/sabrinabertol/ai-random-quote-generator",
+    website: "https://sabrinabertol.github.io/ai-random-quote-generator/",
+  },
+  {
+    id: 9,
     title: "DARC Website",
     date: "Jul 2022",
     description:

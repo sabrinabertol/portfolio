@@ -89,6 +89,7 @@ export const MobileIcon = styled.div`
 export const MobileMenu = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   justify-content: center;
   gap: 16px;
   position: absolute;
@@ -178,4 +179,33 @@ export const MobileNavLogo = styled(LinkR)`
   @media (max-width: 640px) {
     padding: 0 0px;
   }
+`;
+
+
+export const ResumeButton = styled.a`
+
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    width: 50%;
+    max-width: 200px;
+    text-align: center;
+    padding: 12px 0;
+    color:${({ theme }) => theme.white};
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background: ${({ theme }) => theme.primary};
+   
+    &:hover {
+      transform: scale(1.05);
+      transition: all 0.4s ease-in-out;
+    }    
+    
+    @media (max-width: 640px) {
+        padding: 12px 0;
+        font-size: 14px;
+        align-self: right;
+    } 
 `;

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, NavLogo, NavItems, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { Bio } from '../../data/constants';
+import { Nav, NavLink, NavbarContainer, NavLogo, NavItems, MobileIcon, MobileMenu, MobileLink, ResumeButton } from './NavbarStyledComponent'
 import { FaBars } from 'react-icons/fa';
 import logo from '../../images/logo.svg';
 
@@ -21,10 +22,12 @@ const Navbar = () => {
         </MobileIcon>
         <NavItems>
           <NavLink href="#about">About</NavLink>
+          <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
-          <NavLink href='#projects'>Projects</NavLink>
-          <NavLink href='#education'>Education</NavLink>
+          <ResumeButton href={Bio.resume} target="display">
+                Check my CV!
+          </ResumeButton>
         </NavItems>
         {
           isOpen &&
@@ -32,18 +35,18 @@ const Navbar = () => {
             <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
             }}>About</MobileLink>
+            <MobileLink href='#projects' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Projects</MobileLink>
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
             <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
             }}>Experience</MobileLink>
-            <MobileLink href='#projects' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Projects</MobileLink>
-            <MobileLink href='#education' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Education</MobileLink>
+            <ResumeButton href={Bio.resume} target="display">
+                Check my CV!
+            </ResumeButton>
           </MobileMenu>
         }
       </NavbarContainer>

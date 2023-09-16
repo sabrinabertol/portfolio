@@ -50,7 +50,6 @@ export const Desc = styled.div`
 
 export const ToggleButtonGroup = styled.div`
     display: flex;
-    border: 1.5px solid ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.primary};
     font-size: 16px;
     font-weight: 500;
@@ -63,31 +62,26 @@ export const ToggleButtonGroup = styled.div`
 export const ToggleButton = styled.div`
     padding: 8px 18px;
     cursor: pointer;
-    ${({ active, theme }) =>
+    ${({ active }) =>
         active && `
-    background: ${theme.primary + 20};
+        font-weight: 900;
     `
     }
     &:hover {
-        background: ${({ theme }) => theme.primary + 8};
+        color: ${({ theme }) => theme.primary + 80};
     }
     @media (max-width: 768px) {
         padding: 6px 8px;
     }
 `
-export const Divider = styled.div`
-    width: 1.5px;
-    background: ${({ theme }) => theme.primary};
-`
 
 export const CardContainer = styled.div`
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(100px, auto);
     @media (max-width: 960px) {
          grid-template-columns: repeat(2, 1fr);
      }

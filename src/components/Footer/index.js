@@ -94,10 +94,9 @@ function Footer() {
         <Logo>Who is Sabrina Bertol?</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.github} target="display"><GithubIcon /></SocialMediaIcon>

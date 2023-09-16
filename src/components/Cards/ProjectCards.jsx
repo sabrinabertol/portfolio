@@ -3,16 +3,15 @@ import styled from 'styled-components'
 
 const Card = styled.div`
   position: relative;
-  width: auto;
-  height: 300px;
+  width: 100%;
+  height: 400px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
 
   &:hover {
-    transform: translateY(-10px);
-    filter: brightness(1.1); 
+    filter: brightness(1.4); 
   }
 
   @media (max-width: 768px) {

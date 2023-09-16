@@ -188,29 +188,3 @@ export const SubTitleSmall = styled.div`
     line-height: 32px;
   }
 `;
-
-export const ResumeButton = styled.a`
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    width: 95%;
-    max-width: 300px;
-    text-align: center;
-    padding: 16px 0;
-    color:${({ theme }) => theme.white};
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
-    background: ${({ theme }) => theme.primary};
-   
-    &:hover {
-      transform: scale(1.05);
-      transition: all 0.4s ease-in-out;
-    }    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
-`;
