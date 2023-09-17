@@ -222,10 +222,10 @@ export const projects = [
     title: "SpotiFake",
     date: "September 2023",
     description:
-      "A Spotify clone, ",
+      "Recently I had an idea of sharing music that I like with friends, since I have a particular music taste. After that I came across with a great tutorial for a Spotify Clone and decided to give it a try. It is still a work in progress, but you can check it out!",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9fQFI_N03-SO_6_LVUnJeCT3q3R6aQMySMT6fqRfB8rJTh7saODB63Uuh8TqLO1_vExqyB7ky00LMPd_qIbjG6gk2hJF7h_wxyjhxtRLKCsLKnG5fAP_NL_C24on1RDvVnztpd0zbOnfanOCxeUTBXQg=w2560-h1364",
-    tags: [ "React", "TypeScript", "HTML", "Tailwind", "NextJs", "Supabase", "Vercel"],
+    tags: [ "React", "TypeScript", "HTML", "Tailwind", "NextJs", "Supabase", "Vercel", "Adobe Illustrator"],
     category: "dev",
     github: "https://github.com/sabrinabertol/spotify-clone",
     website: "https://spotify-clone-liart-nu.vercel.app/",
@@ -235,7 +235,7 @@ export const projects = [
     title: "Quote of the Day",
     date: "August 2023",
     description:
-      "",
+      "I am very excited about AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back to coding in React, and giving the simplicity of my prompts, I feel like it did a good job! I went back later and restyled it a bit, using some help of Claude this time! (I've been using a lot of AI to help me code and to do a lot more. Let's talk about it!)",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc__ufW2ly0OszkZh-cLRib8tAqwqz9ZjCapDCQtDcFht0I7GXyy-BnvnrNIJSBhKUsDW8f5PugtRmIsgx5uxjvOWwSoltW_yYvKB0_e3rZhKqmaB4ZRtvNXTJsYmRr3kKmUpkhrRmDgo1vlbf0bAqX8qg=w2526-h1360",
     tags: [ "ChatGPT", "React", "HTML", "CSS", "JavaScript"],
