@@ -9,11 +9,9 @@ const Card = styled.div`
   cursor: pointer;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
-
   &:hover {
     filter: brightness(1.4); 
   }
-
   @media (max-width: 768px) {
     width: 100%;
     height: 350px;

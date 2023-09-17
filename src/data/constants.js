@@ -132,6 +132,30 @@ export const skills = [
       },
     ],
   },
+  {
+    title: "Backend",
+    skills: [
+      {
+        name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "HTML5",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS3",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png",
+      },
+    ],
+  },
 ];
 
 export const experiences = [
@@ -218,7 +242,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 2,
+    id: 1,
     title: "SpotiFake",
     date: "September 2023",
     description:
@@ -231,7 +255,7 @@ export const projects = [
     website: "https://spotify-clone-liart-nu.vercel.app/",
   },
   {
-    id: 9,
+    id: 2,
     title: "Quote of the Day",
     date: "August 2023",
     description:
@@ -244,19 +268,41 @@ export const projects = [
     website: "https://sabrinabertol.github.io/ai-random-quote-generator/",
   },
   {
-    id: 9,
+    id: 3,
     title: "DARC Website",
     date: "Jul 2022",
     description:
-      "",
+      "DARC (or Desterro) is an association in Lisbon very dear to me. Their website was pretty much non-existent, so I offer to help and create a website for them. Our idea was to keep it very simple, since Desterro is a well kept secret not aiming to attract much attention. I used WordPress and Elementor, and it was a great opportunity to learn more about these tools!",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc_o37hH3hkxpQtu8d11gtR8YFQmePpdqsMyNn22r6oLB8Vces1irAZIcZoAR3gTj_VpbhKIt4z-gjhZXTqc2Lc5xQe2cZ3iB-LAWYvkTHsUY1E5WVy0F-tvd2urQ7LjmQloaHAsGEO2L0NErTlt8LFkSw=w2486-h962",
     tags: [ "WordPress", "Elementor", "Adobe Illustrator"],
     category: "design",
     website: "https://darc.pt/",
+  },  
+  {
+    id: 7,
+    title: "Hand Drawings",
+    date: "2022 - Present",
+    description: 
+      "Since 2022, I went back to hand drawings. I work mostly with lines and simples shapes, that at the beginning look very boring and meaningless, but as I keep drawing, they start to make sense to me and become more complex. I like to draw with a black pen, because it forces me not to hurry and accept imperfections.",
+    image:
+      "https://lh3.googleusercontent.com/pw/AIL4fc_8VywQcO9ljcFUJY2yDVIayTMsPdXpk6OBcMTI2OgxdFtvPXGCiSajXcWCPjilM4qP_yK0tvimi_YuicdnGT6RXJVqVW-HL94zv11tH0azkLO4dwRcGxi1ibVNQUkoH23lY_f7Mbpc1PFtsGqor5SeKQ=w874-h1280",
+    tags: [
+      "Drawing", "Patience", "Creativity", "Art"
+    ],
+    category: "art",
+    website: "https://www.instagram.com/sabrina_bertol/",
+    images: [
+      {
+        url: "https://lh3.googleusercontent.com/pw/AIL4fc_8VywQcO9ljcFUJY2yDVIayTMsPdXpk6OBcMTI2OgxdFtvPXGCiSajXcWCPjilM4qP_yK0tvimi_YuicdnGT6RXJVqVW-HL94zv11tH0azkLO4dwRcGxi1ibVNQUkoH23lY_f7Mbpc1PFtsGqor5SeKQ=w874-h1280",
+      },
+      {
+        url: "https://lh3.googleusercontent.com/pw/AIL4fc-CwN4aChBzYxjMyxqEclj1yj0u5lcd0KLbqF8WxlvfEhHMhphEmntWxOgAzdlRT1E28k20qTdg-IW4M__6bCCzBXbTBSQuWMSdfZ8rrLP7OojpgGQzXxe3Gb6G8uyFJxTOfJqK87wl5iWmZT9PniYrrw=w890-h1280",
+      },
+    ],
   },
   {
-    id: 9,
+    id: 4,
     title: "I Exist",
     date: "Jan 2021 - Present",
     description:
@@ -269,11 +315,11 @@ export const projects = [
     website: "https://sabrinabertol.github.io/iexist/",
   },
   {
-    id: 2,
+    id: 6,
     title: "Digital Drawings",
     date: "Isolation 2020",
     description:
-      "",
+      "I love Illustrator. I use it for everything, from architectural drawing to designing websites. I started drawing digitally in 2020, during the first lockdown. I was feeling anxious and needed to do something creative, so I decided to improve my skills in Illustrator. I started a few online courses and it was very therapeutic, so I created a few illustrations, most of them about Lisbon. (Probably because I missed being outside!)",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-wRP6tEYguG53FPkCGaR9Iq3mF7eB3BQRgshNJ1CRGRZIGq18vZ00S08d5D0ElPSj4Hn6uwy4ntWD3Xy2MooOMoGQvhP-KfgriszJkpCUccNtjF5b5fuQicV8b7KThrRG3INjb8QqBvSyXjKRhfb870A=w1366-h1366",
     tags: ["Adobe Illustrator", "Drawing", "Creativity", "Art"],
@@ -281,19 +327,18 @@ export const projects = [
     website: "https://sabrinabertol.myportfolio.com/illustrator",
   },
   {
-    id: 1,
-    title: "Hand Drawings",
-    date: "2022 - Present",
-    description: 
-      "Since 2022, I went back to hand drawings. I work mostly with lines and simples shapes, that at the beginning look very boring and meaningless, but as I keep drawing, they start to make sense and become more complex. I like to draw with a black pen, because it forces me not to hurry and accept imperfections.",
+    id: 5,
+    title: "Master Thesis",
+    date: "Feb 2020",
+    description:
+      "",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc9dsgkC9qyGmhorjvwICAQ_uEyvfZhDIuXWJDvYhNYQB34YphV--XRBPmtpDeWv76TvOwtkLEAsciyKnm_-1CWAh0bjrV0S_gEi2vTtKsnJSYAP1cnNhPQ-1_ebWLaH9vju_lIUUs7opIcvCBTas6UcpQ=w952-h1366",
-    tags: [
-      "Drawing", "Patience", "Creativity", "Art"
-    ],
-    category: "art",
-    website: "https://www.instagram.com/sabrina_bertol/",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8ubUm1N7ZCqQs5Z-szJhgJlJOjWkoGhpnkQfJTtyWpMcyV3DXYSMSNmjXAuh31dC49kt-VMHpJ8pOOku30WJCeI8BnG6Fb8SzfmlIzTamdp3tlZY7eUYciJb_2td1j_TUEMlseP4LXF2in6vvuamoc9g=w1280-h1280",
+    tags: [ "Urban Planning", "ArcGIS", "Adobe Illustrator", "AutoCad"],
+    category: "design",
+    website: "https://sabrinabertol.myportfolio.com/dissertacao",
   },
+
     /*{
     id: 0,
     title: "Podstream",

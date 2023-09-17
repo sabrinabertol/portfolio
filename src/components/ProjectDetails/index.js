@@ -1,6 +1,10 @@
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
-import { Modal } from '@mui/material';
 import React from 'react'
+import { Modal } from '@mui/material';
+import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -141,7 +145,6 @@ const MemberName = styled.div`
     }
 `;
 
-
 const ButtonGroup = styled.div`
     display: flex;
     justify-content: flex-end;
@@ -176,64 +179,98 @@ const Button = styled.a`
 `;
 
 
+const EachSlide = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+`;
+
+
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     return (
-        <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
-            <Container>
-                <Wrapper>
-                    <CloseRounded
-                        style={{
-                            position: "absolute",
-                            top: "10px",
-                            right: "20px",
-                            cursor: "pointer",
-                        }}
-                        onClick={() => setOpenModal({ state: false, project: null })}
-                    />
-                    <Image src={project?.image} />
-                    <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
-                    <Tags>
-                        {project?.tags.map((tag) => (
-                            <Tag>{tag}</Tag>
-                        ))}
-                    </Tags>
-                    <Desc>{project?.description}</Desc>
-                    {project.member && (
-                        <>
-                            <Label>Members</Label>
-                            <Members>
-                                {project?.member.map((member) => (
-                                    <Member>
-                                        <MemberImage src={member.img} />
-                                        <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
-                                            <GitHub />
-                                        </a>
-                                        <a href={member.linkedin} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
-                                            <LinkedIn />
-                                        </a>
-                                    </Member>
-                                ))}
-                            </Members>
-                        </>
-                    )}
-                    <ButtonGroup>
-                        {project?.github && (
-                        <Button dull href={project?.github} target='new'>
-                            View Code
-                        </Button>
-                        )}
+      <Modal
+        open={true}
+        onClose={() => setOpenModal({ state: false, project: null })}
+      >
+        <Container>
+          <Wrapper>
+            <CloseRounded
+              style={{
+                position: "absolute",
+                top: "10px",
+                right: "20px",
+                cursor: "pointer",
+                zIndex: "1",
+              }}
+              onClick={() => setOpenModal({ state: false, project: null })}
+            />
 
-                        <Button href={project?.website} target='new'>
-                        View Website
-                        </Button>
-                    </ButtonGroup>
-                </Wrapper>
-            </Container>
-        </Modal>
-    )
+            {project?.images ? (
+              <Slide>
+                {project?.images.map((image) => ((
+                    console.log(image.url),
+                    <EachSlide>
+                        <div style={{ 'backgroundImage': `url(${image.url})` }}></div>
+                    </EachSlide>
+                    )))}
+              </Slide>
+            ) : (
+              <Image src={project?.image} />
+            )}
+
+            <Title>{project?.title}</Title>
+            <Date>{project.date}</Date>
+            <Tags>
+              {project?.tags.map((tag) => (
+                <Tag>{tag}</Tag>
+              ))}
+            </Tags>
+            <Desc>{project?.description}</Desc>
+            {project.member && (
+              <>
+                <Label>Members</Label>
+                <Members>
+                  {project?.member.map((member) => (
+                    <Member>
+                      <MemberImage src={member.img} />
+                      <MemberName>{member.name}</MemberName>
+                      <a
+                        href={member.github}
+                        target="new"
+                        style={{ textDecoration: "none", color: "inherit" }}
+                      >
+                        <GitHub />
+                      </a>
+                      <a
+                        href={member.linkedin}
+                        target="new"
+                        style={{ textDecoration: "none", color: "inherit" }}
+                      >
+                        <LinkedIn />
+                      </a>
+                    </Member>
+                  ))}
+                </Members>
+              </>
+            )}
+            <ButtonGroup>
+              {project?.github && (
+                <Button dull href={project?.github} target="new">
+                  View Code
+                </Button>
+              )}
+
+              <Button href={project?.website} target="new">
+                View Website
+              </Button>
+            </ButtonGroup>
+          </Wrapper>
+        </Container>
+      </Modal>
+    );
 }
 
 export default index
