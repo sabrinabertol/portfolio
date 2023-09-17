@@ -34,10 +34,19 @@ export const NavLogo = styled(LinkR)`
   justify-content: start;
   align-items: center;
   text-decoration: none;
+
   @media (max-width: 640px) {
     padding: 0 0px;
   }
 `;
+
+export const Image = styled(LinkR)`
+&:hover {
+  opacity: 0.8;
+}  
+`;
+
+
 export const Span = styled.div`
   padding: 0 4px;
   font-weight: bold;
@@ -189,7 +198,7 @@ export const ResumeButton = styled.a`
     appearance: button;
     text-decoration: none;
     width: 50%;
-    max-width: 200px;
+    max-width: 180px;
     text-align: center;
     padding: 12px 0;
     color:${({ theme }) => theme.white};
@@ -197,12 +206,10 @@ export const ResumeButton = styled.a`
     font-size: 16px;
     font-weight: 600;
     background: ${({ theme }) => theme.primary};
-   
     &:hover {
-      transform: scale(1.05);
-      transition: all 0.4s ease-in-out;
-    }    
-    
+      background-color: ${({ theme }) => theme.primary + 80};
+      color: ${({ theme }) => theme.text_primary + 80};
+  }    
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 14px;

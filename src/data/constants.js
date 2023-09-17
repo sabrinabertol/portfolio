@@ -218,17 +218,17 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "I Exist",
-    date: "Jan 2021 - Present",
+    id: 2,
+    title: "SpotiFake",
+    date: "September 2023",
     description:
-      "",
+      "A Spotify clone, ",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_ydAER7wpDj2umP3j3Zo7QQpkHz3TSD26LfoYu5rQaIzNsM3i2CzON-rad0lSIdgGA86zUwsZ_piP1f_mo5g1Ko7GkQpUaMQHD_LWwbuaLAAfyC_ewu8H3dvTIJyyUXPMe2z-1IO0D071DQhrawdnMcw=w2442-h1220",
-    tags: [ "HTML", "CSS", "JavaScript"],
+      "https://lh3.googleusercontent.com/pw/AIL4fc9fQFI_N03-SO_6_LVUnJeCT3q3R6aQMySMT6fqRfB8rJTh7saODB63Uuh8TqLO1_vExqyB7ky00LMPd_qIbjG6gk2hJF7h_wxyjhxtRLKCsLKnG5fAP_NL_C24on1RDvVnztpd0zbOnfanOCxeUTBXQg=w2560-h1364",
+    tags: [ "React", "TypeScript", "HTML", "Tailwind", "NextJs", "Supabase", "Vercel"],
     category: "dev",
-    github: "https://github.com/sabrinabertol/iexist",
-    website: "https://sabrinabertol.github.io/iexist/",
+    github: "https://github.com/sabrinabertol/spotify-clone",
+    website: "https://spotify-clone-liart-nu.vercel.app/",
   },
   {
     id: 9,
@@ -237,7 +237,7 @@ export const projects = [
     description:
       "",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc--KKEnQn9yojwzlaPg8Y8tGuSw2JMJ6eYNgWMlTaS_3PwcF-pIv6zFuaZJC1PaAwOvznYM3qupIeq9ntuHAIsJ88LmQN9dDrc-HJ3VTudEXaCpwWbm4RME6TlXrjWzSfWFJP1SDnbu4TrnqZ4pQDj3uQAvKlLAncIb4b_xabD8Bfi-K6hBy0SW5pGl37xNwXjisfW8UtSJvhFJKa7z8id20FEn1w5WhatvwVnI5HU-LRbUCCfA_NHxBNXrn5fx3f3rTP2OQcDpjyK4XXvkDwcyRFlTA7bKRmGlxfDYLtez2BGz-zgIpsI7b6v2bn59cj2SBqaXOPb83GtkEry-kjbkChh1HcT_NZj1KHgik_J6603BrvSRxPmygSTuoybpQaK3fJnqQIn3FF85kfuHzDmttA-PYdgdAu2NZkSKC1NIqn3jVTyyLMphoxrN0kPl84RxuS-VrDaEoIT5xQPbi0F4XoFYwg9ew2iYaBgeHdGERYwyyFShho1SZo4K4tahEtXcvJ3Tot-zqqw_RPgWaKQEAkSE9xnU1yKwB00g-y6t5489Z6rReQkvtufrUWn2bVMaZ7R3nzY8Gi7fpyZV3CvtTC7gQ0Gr1gA8E0k2xFP4D49LWmGuTY91_I05iMvb8Foo95oLNwg-xwd34Q8vjZR9whgJYptnm9NROEZUftpJTgjI9CpfEvqK1A24Ja72jGs9baeVr42J7a05Eaz5TbZhamlDrtO4T7XQmV6NfZoicYxkQFMnHmcMVcdGZUAZmbdddyrd4mVEoTZVV-eifOWNHVj7wzD2Y1PCnVOHMgxJNq1ZVCj0kTrKj2O-5ZbukTUwWT3HjqqLRmOYNZ2sRSQHmNCIP2PQ6dirPcOFp_UZKoTxUvBM-fKLRmjqYxmyrPUvGXMn5FLf2CMeTYk5eveT-Xc=w2526-h1360",
+      "https://lh3.googleusercontent.com/pw/AIL4fc__ufW2ly0OszkZh-cLRib8tAqwqz9ZjCapDCQtDcFht0I7GXyy-BnvnrNIJSBhKUsDW8f5PugtRmIsgx5uxjvOWwSoltW_yYvKB0_e3rZhKqmaB4ZRtvNXTJsYmRr3kKmUpkhrRmDgo1vlbf0bAqX8qg=w2526-h1360",
     tags: [ "ChatGPT", "React", "HTML", "CSS", "JavaScript"],
     category: "dev",
     github: "https://github.com/sabrinabertol/ai-random-quote-generator",
@@ -255,7 +255,46 @@ export const projects = [
     category: "design",
     website: "https://darc.pt/",
   },
-  /*{
+  {
+    id: 9,
+    title: "I Exist",
+    date: "Jan 2021 - Present",
+    description:
+      "",
+    image:
+      "https://lh3.googleusercontent.com/pw/AIL4fc_ydAER7wpDj2umP3j3Zo7QQpkHz3TSD26LfoYu5rQaIzNsM3i2CzON-rad0lSIdgGA86zUwsZ_piP1f_mo5g1Ko7GkQpUaMQHD_LWwbuaLAAfyC_ewu8H3dvTIJyyUXPMe2z-1IO0D071DQhrawdnMcw=w2442-h1220",
+    tags: [ "HTML", "CSS", "JavaScript"],
+    category: "dev",
+    github: "https://github.com/sabrinabertol/iexist",
+    website: "https://sabrinabertol.github.io/iexist/",
+  },
+  {
+    id: 2,
+    title: "Digital Drawings",
+    date: "Isolation 2020",
+    description:
+      "",
+    image:
+      "https://lh3.googleusercontent.com/pw/AIL4fc-wRP6tEYguG53FPkCGaR9Iq3mF7eB3BQRgshNJ1CRGRZIGq18vZ00S08d5D0ElPSj4Hn6uwy4ntWD3Xy2MooOMoGQvhP-KfgriszJkpCUccNtjF5b5fuQicV8b7KThrRG3INjb8QqBvSyXjKRhfb870A=w1366-h1366",
+    tags: ["Adobe Illustrator", "Drawing", "Creativity", "Art"],
+    category: "art",
+    website: "https://sabrinabertol.myportfolio.com/illustrator",
+  },
+  {
+    id: 1,
+    title: "Hand Drawings",
+    date: "2022 - Present",
+    description: 
+      "Since 2022, I went back to hand drawings. I work mostly with lines and simples shapes, that at the beginning look very boring and meaningless, but as I keep drawing, they start to make sense and become more complex. I like to draw with a black pen, because it forces me not to hurry and accept imperfections.",
+    image:
+      "https://lh3.googleusercontent.com/pw/AIL4fc9dsgkC9qyGmhorjvwICAQ_uEyvfZhDIuXWJDvYhNYQB34YphV--XRBPmtpDeWv76TvOwtkLEAsciyKnm_-1CWAh0bjrV0S_gEi2vTtKsnJSYAP1cnNhPQ-1_ebWLaH9vju_lIUUs7opIcvCBTas6UcpQ=w952-h1366",
+    tags: [
+      "Drawing", "Patience", "Creativity", "Art"
+    ],
+    category: "art",
+    website: "https://www.instagram.com/sabrina_bertol/",
+  },
+    /*{
     id: 0,
     title: "Podstream",
     date: "Apr 2023 - May 2023",
@@ -282,30 +321,4 @@ export const projects = [
       },
     ],
   },*/
-  {
-    id: 2,
-    title: "Digital Drawings",
-    date: "",
-    description:
-      "",
-    image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc-_pl2vjVFjt9X-vwEJvqgxdUJzVU5hTo6euBKJiVLudf2gJj5cec8oqwPyueMnVfFFaFSNjKLnFWw-U9Tiaw1LRI3bqV2WISOQl91w1LFwIQWwzI9ummqTbTkat4kF1oI7239wbpAgymfebDkbHfkDIg=w1918-h1280",
-    tags: ["Adobe Illustrator", "Drawing", "Creativity", "Art"],
-    category: "art",
-    website: "https://sabrinabertol.myportfolio.com/illustrator",
-  },
-  {
-    id: 1,
-    title: "Hand Drawings",
-    date: "",
-    description: 
-      "Since 2022, I went back to hand drawings. I work mostly with lines and simples shapes, that at the beginning look very boring and meaningless, but as I keep drawing, they start to make sense and become more complex. I like to draw with a black pen, because it forces me not to hurry and accept imperfections.",
-    image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_IBILlG5Ap8lNgGeoTqSYZQbbVYjNZj8RRCu0B0Vu2FtEoPoXwdxQcvJs2TUKu6FdxZMOtrrV0-6QOaNpCGXYZqnIOHVXjesLzR-Mu9bojiEKownd4PfLTBxVtDzxn-j5tCG6b4He-sHzIqGQ6slYYTQ=w950-h1366",
-    tags: [
-      "Drawing", "Patience", "Creativity", "Art"
-    ],
-    category: "art",
-    website: "https://www.instagram.com/sabrina_bertol/",
-  },
 ];

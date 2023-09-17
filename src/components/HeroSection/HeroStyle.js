@@ -109,6 +109,8 @@ export const Img = styled.img`
   @media (max-width: 640px) {
     max-width: 280px;
     max-height: 280px;
+    left: 10%;
+
   }
 `;
 
@@ -116,13 +118,13 @@ export const ImageTitle = styled.div`
   font-weight: 900;
   font-size: 500px;
   text-align: center;
-  color: black;
+  color: #111119;
   position: absolute;
   right: 25%;
   @media (max-width: 640px) {
     font-size: 350px;
     margin-bottom: 8px;
-    left: -40%;
+    left: -30%;
   }
   z-index: 1;
   `;

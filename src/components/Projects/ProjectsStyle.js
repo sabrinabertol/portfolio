@@ -81,6 +81,7 @@ export const CardContainer = styled.div`
     align-items: center;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
     @media (max-width: 960px) {
          grid-template-columns: repeat(2, 1fr);

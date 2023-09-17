@@ -112,9 +112,9 @@ const ContactButton = styled.input`
   font-size: 18px;
   font-weight: 600;
   &:hover {
-    transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-  }    
+    background-color: ${({ theme }) => theme.primary + 80};
+    color: ${({ theme }) => theme.text_primary + 80};
+  }     
   @media (max-width: 640px) {
     padding: 12px 0;
     font-size: 18px;
@@ -148,7 +148,7 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Let's get in touch!</ContactTitle>
+          <ContactTitle>Let's talk!</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />

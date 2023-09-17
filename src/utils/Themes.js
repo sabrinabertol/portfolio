@@ -1,5 +1,5 @@
 export const defaultTheme = {
-    bg:"#1C1C27",
+    bg:"#111119",
     bgLight: "#1C1E27",
     primary:"#d32f2f",
     text_primary:"#F2F3F4",

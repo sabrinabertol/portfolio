@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Card = styled.div`
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 450px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   overflow: hidden;
@@ -16,7 +16,7 @@ const Card = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
-    height: 200px;
+    height: 350px;
   }
 `;
 

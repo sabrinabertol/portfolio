@@ -10,7 +10,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-        <img src={logo} alt="My logo" height="30px" color="white" />
+        <img src={logo} alt="WISB?" height="30px" color="white" className='Image' />
           {/* eslint-disable-next-line */}
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
           </a>
@@ -24,10 +24,8 @@ const Navbar = () => {
           <NavLink href="#about">About</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
-          <NavLink href='#experience'>Experience</NavLink>
-          <ResumeButton href={Bio.resume} target="display">
-                Check my CV!
-          </ResumeButton>
+          <NavLink href='#contact'>Contact</NavLink>
+          <ResumeButton href={Bio.resume} target="display">Check my CV!</ResumeButton>
         </NavItems>
         {
           isOpen &&
@@ -41,9 +39,9 @@ const Navbar = () => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
-            <MobileLink href='#experience' onClick={() => {
+            <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
+            }}>Contact</MobileLink>
             <ResumeButton href={Bio.resume} target="display">
                 Check my CV!
             </ResumeButton>
