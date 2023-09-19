@@ -21,12 +21,29 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Development",
+    description:
+    "This is a description",
     skills: [
       {
-        name: "React Js",
+        name: "Ruby",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+          "https://icon-library.com/images/ruby-icon-png/ruby-icon-png-6.jpg",
+      },
+      {
+        name: "Ruby on Rails",
+        image:
+          "https://www.svgrepo.com/show/376345/rails.svg",
+      },
+            {
+        name: "JavaScript",
+        image:
+          "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
       },
       {
         name: "HTML5",
@@ -38,9 +55,9 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
       },
       {
-        name: "JavaScript",
+        name: "React Js",
         image:
-          "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png",
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
         name: "Bootstrap",
@@ -63,33 +80,31 @@ export const skills = [
           "https://elementor.com/marketing/wp-content/uploads/2021/10/Elementor-Logo-Symbol-Red.png",
       },
       {
-        name: "Ruby",
-        image:
-          "https://icon-library.com/images/ruby-icon-png/ruby-icon-png-6.jpg",
-      },
-      {
-        name: "Ruby on Rails",
-        image:
-          "https://www.svgrepo.com/show/376345/rails.svg",
-      },
-      {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
       {
-        name: "MySQL",
+        name: "Git",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
       },
       {
-        name: "PostgreSQL",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+        name: "VS Code",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
       {
-        name: "Postman API",
+        name: "AppsScript",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/2048px-Google_Apps_Script.svg.png",
       },
+    ],
+  },
+  {
+    title: "Design",
+    description:
+    "This is a description",
+    skills: [
       {
         name: "Figma",
         image:
@@ -109,50 +124,6 @@ export const skills = [
         name: "Adobe InDesign",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/2101px-Adobe_InDesign_CC_icon.svg.png",
-      },
-      {
-        name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "AppsScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/2048px-Google_Apps_Script.svg.png",
-      },
-    ],
-  },
-  {
-    title: "Backend",
-    skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "HTML5",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS3",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png",
       },
     ],
   },
@@ -244,9 +215,9 @@ export const projects = [
   {
     id: 1,
     title: "SpotiFake",
-    date: "September 2023",
+    date: "Sep 2023",
     description:
-      "Recently I had an idea of sharing music that I like with friends, since I have a particular music taste. After that I came across with a great tutorial for a Spotify Clone and decided to give it a try. It is still a work in progress, but you can check it out!",
+      "Recently I had an idea of sharing music that I like with friends, since I have a particular music taste. After that I came across with a great tutorial for a Spotify Clone and decided to give it a try. I really liked the seamless integration between React, NextJS, SupaBase and Vercel, it was my first time using Tailwind but I quite like it! It is still a work in progress, but you can check it out!",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9fQFI_N03-SO_6_LVUnJeCT3q3R6aQMySMT6fqRfB8rJTh7saODB63Uuh8TqLO1_vExqyB7ky00LMPd_qIbjG6gk2hJF7h_wxyjhxtRLKCsLKnG5fAP_NL_C24on1RDvVnztpd0zbOnfanOCxeUTBXQg=w2560-h1364",
     tags: [ "React", "TypeScript", "HTML", "Tailwind", "NextJs", "Supabase", "Vercel", "Adobe Illustrator"],
@@ -257,9 +228,9 @@ export const projects = [
   {
     id: 2,
     title: "Quote of the Day",
-    date: "August 2023",
+    date: "Aug 2023",
     description:
-      "I am very excited about AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back to coding in React, and giving the simplicity of my prompts, I feel like it did a good job! I went back later and restyled it a bit, using some help of Claude this time! (I've been using a lot of AI to help me code and to do a lot more. Let's talk about it!)",
+      "I am very excited about AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back to coding in React, and giving the simplicity of my prompts, I feel like it did a good job! I went back later and restyled it a bit, using some help of Claude this time. (I've been using a lot of AI to help me code and to do a lot more. Let's talk about it!)",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc__ufW2ly0OszkZh-cLRib8tAqwqz9ZjCapDCQtDcFht0I7GXyy-BnvnrNIJSBhKUsDW8f5PugtRmIsgx5uxjvOWwSoltW_yYvKB0_e3rZhKqmaB4ZRtvNXTJsYmRr3kKmUpkhrRmDgo1vlbf0bAqX8qg=w2526-h1360",
     tags: [ "ChatGPT", "React", "HTML", "CSS", "JavaScript"],
@@ -317,9 +288,9 @@ export const projects = [
   {
     id: 6,
     title: "Digital Drawings",
-    date: "Isolation 2020",
+    date: "Lockdown 2020",
     description:
-      "I love Illustrator. I use it for everything, from architectural drawing to designing websites. I started drawing digitally in 2020, during the first lockdown. I was feeling anxious and needed to do something creative, so I decided to improve my skills in Illustrator. I started a few online courses and it was very therapeutic, so I created a few illustrations, most of them about Lisbon. (Probably because I missed being outside!)",
+      "I love Illustrator. I use it for everything, from architectural drawings to designing websites. I started drawing digitally in 2020, during the first lockdown. I was feeling anxious and needed to do something creative, so I decided to improve my skills in Illustrator and started a few online courses. I created a few illustrations, most of them about Lisbon. Probably because I missed being outside!",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc-wRP6tEYguG53FPkCGaR9Iq3mF7eB3BQRgshNJ1CRGRZIGq18vZ00S08d5D0ElPSj4Hn6uwy4ntWD3Xy2MooOMoGQvhP-KfgriszJkpCUccNtjF5b5fuQicV8b7KThrRG3INjb8QqBvSyXjKRhfb870A=w1366-h1366",
     tags: ["Adobe Illustrator", "Drawing", "Creativity", "Art"],

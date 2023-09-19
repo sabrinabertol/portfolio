@@ -9,10 +9,8 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  margin: 30px 30px 10% 30px;
-  @media (max-width: 768px) {
-    margin: 30px 10px 10% 10px;
-  }
+  margin-top: 30px;
+  margin-bottom: 10%;
 `;
 
 const Wrapper = styled.div`
@@ -23,7 +21,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   margin-bottom: 30px;
-  max-width: 1100px;
+  max-width: 1350px;
   gap: 12px;
   @media (max-width: 960px) {
     flex-direction: column;
@@ -35,6 +33,7 @@ export const Title = styled.div`
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
@@ -45,7 +44,8 @@ export const Title = styled.div`
 export const Desc = styled.div`
   font-size: 18px;
   text-align: center;
-  max-width: 600px;
+  max-width: 800px;
+  margin-bottom: 30px;
   color: ${({ theme }) => theme.text_secondary};
   @media (max-width: 768px) {
     font-size: 16px;
@@ -85,16 +85,22 @@ const SkillTitle = styled.h2`
   text-align: center;
 `;
 
+const SkillDescription = styled.p`
+  color: ${({ theme }) => theme.text_secondary};
+  margin-bottom: 20px;
+  text-align: center;
+`;
+
 const SkillList = styled.div`
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 8px;
   place-items: center;
   @media (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
@@ -102,22 +108,21 @@ const SkillList = styled.div`
 `;
 
 const SkillItem = styled.div`
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
-  padding: 12px 16px;
+  padding: 10px 16px;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
   place-items: center;
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
   }
   @media (max-width: 500px) {
-    font-size: 14px;
     padding: 6px 12px;
   }
 `;
@@ -133,14 +138,14 @@ const Skills = () => {
       <Wrapper>
         <Title>Skills</Title>
         <Desc>
-          Here are some of my skills on which I have been working on for the
-          past 2 years.
+          I believe adaptation is key. It is not about how many languages or tools you already know, but how fast and easily you can learn new ones.
+          I have done a lot of different things in my life, therefore my set of skills is very diverse. 
         </Desc>
-        </Wrapper>
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill>
               <SkillTitle>{skill.title}</SkillTitle>
+              <SkillDescription>{skill.description}</SkillDescription>
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem>
@@ -152,6 +157,8 @@ const Skills = () => {
             </Skill>
           ))}
         </SkillsContainer>
+        </Wrapper>
+
     </Container>
   );
 };

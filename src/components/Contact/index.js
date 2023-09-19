@@ -47,7 +47,7 @@ margin-top: 20px;
 const Desc = styled.div`
     font-size: 18px;
     text-align: center;
-    max-width: 600px;
+    max-width: 700px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;
@@ -146,7 +146,7 @@ const Contact = () => {
     <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>I am open to new career opportunities and always looking for challenges. Let's talk about frontend development, webdesign, art or AI. Feel free to reach out to me for any questions!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Let's talk!</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
