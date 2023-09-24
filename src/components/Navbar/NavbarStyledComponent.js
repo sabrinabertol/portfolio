@@ -46,7 +46,6 @@ export const Image = styled(LinkR)`
 }  
 `;
 
-
 export const Span = styled.div`
   padding: 0 4px;
   font-weight: bold;

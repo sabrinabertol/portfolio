@@ -23,7 +23,7 @@ export const skills = [
   {
     title: "Development",
     description:
-    "This is a description",
+    "Passionate about frontend development, I love translating desing into code. Currently I am working on my own projects, trying to learn more about React, NextJs and other technologies.",
     skills: [
       {
         name: "Ruby",
@@ -35,16 +35,6 @@ export const skills = [
         image:
           "https://www.svgrepo.com/show/376345/rails.svg",
       },
-            {
-        name: "JavaScript",
-        image:
-          "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png",
-      },
-      {
-        name: "TypeScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
-      },
       {
         name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -55,9 +45,23 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
       },
       {
+        name: "JavaScript",
+        image:
+          "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+      },
+      {
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Node Js",
+        image: "https://nodejs.org/static/images/logo.svg",
       },
       {
         name: "Bootstrap",
@@ -70,24 +74,16 @@ export const skills = [
           "https://static-00.iconduck.com/assets.00/material-ui-icon-512x406-fhnu85xg.png",
       },
       {
-        name: "WordPress",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
-      },
-      {
-        name: "Elementor",
-        image:
-          "https://elementor.com/marketing/wp-content/uploads/2021/10/Elementor-Logo-Symbol-Red.png",
-      },
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
         name: "Git",
         image:
           "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
       },
+      {
+        name: "GitHub",
+        image:
+          "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg",
+      },
+      
       {
         name: "VS Code",
         image:
@@ -98,12 +94,17 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/2048px-Google_Apps_Script.svg.png",
       },
+      {
+        name: "WordPress",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
+      },
     ],
   },
   {
     title: "Design",
     description:
-    "This is a description",
+    "Because of my background in Architecture and Urban Planning, I have a lot of experience with different design softwares. I also love to create illustrations and work with graphic design.",
     skills: [
       {
         name: "Figma",
@@ -124,6 +125,11 @@ export const skills = [
         name: "Adobe InDesign",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/2101px-Adobe_InDesign_CC_icon.svg.png",
+      },
+      {
+        name: "Elementor",
+        image:
+          "https://elementor.com/marketing/wp-content/uploads/2021/10/Elementor-Logo-Symbol-Red.png",
       },
     ],
   },
@@ -232,7 +238,7 @@ export const projects = [
     description:
       "I am very excited about AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back to coding in React, and giving the simplicity of my prompts, I feel like it did a good job! I went back later and restyled it a bit, using some help of Claude this time. (I've been using a lot of AI to help me code and to do a lot more. Let's talk about it!)",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc__ufW2ly0OszkZh-cLRib8tAqwqz9ZjCapDCQtDcFht0I7GXyy-BnvnrNIJSBhKUsDW8f5PugtRmIsgx5uxjvOWwSoltW_yYvKB0_e3rZhKqmaB4ZRtvNXTJsYmRr3kKmUpkhrRmDgo1vlbf0bAqX8qg=w2526-h1360",
+      "https://lh3.googleusercontent.com/pw/ADCreHfBYKFh36wG9vSCY6Ky1uY80zAgMMmOJO_g2L5420cyaW22P7y3BDtWr_tTIoiGvOV9qfX7W6WzQGGCkQcKBWHjAAOHXzheG5VnXGiKedcqrq7sSfzOKaO86wBnVG5nxRlys6jOtabRNiNcAvnVjOhkzw=w2560-h1362",
     tags: [ "ChatGPT", "React", "HTML", "CSS", "JavaScript"],
     category: "dev",
     github: "https://github.com/sabrinabertol/ai-random-quote-generator",
@@ -245,11 +251,24 @@ export const projects = [
     description:
       "DARC (or Desterro) is an association in Lisbon very dear to me. Their website was pretty much non-existent, so I offer to help and create a website for them. Our idea was to keep it very simple, since Desterro is a well kept secret not aiming to attract much attention. I used WordPress and Elementor, and it was a great opportunity to learn more about these tools!",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_o37hH3hkxpQtu8d11gtR8YFQmePpdqsMyNn22r6oLB8Vces1irAZIcZoAR3gTj_VpbhKIt4z-gjhZXTqc2Lc5xQe2cZ3iB-LAWYvkTHsUY1E5WVy0F-tvd2urQ7LjmQloaHAsGEO2L0NErTlt8LFkSw=w2486-h962",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_TcX8Oq3ZT0zpjaMQHP2cAbFn8TllbAo2ufmg2Zb8OhwPZj-jNYDI0g0AMOATlwWbaahkp4zwGU-WsbFdYygx2a2wimV-VA125RU5GoNyBagVCP4ROPlVzaN9xdURg-1a_b07iHToUJoVO011V2xEE9M1FEKU8o28dM40_RRSrsN7vdiAVcNvDoIBer3osoQ_P43VTmvc90gJHeYzAkPyAJTnzn4WNIm914XaD9WXefLb0xgTSSRuuhxqqZyb5D9HzDsHkLONOa6rSEqLdEfLy3yHe-4ExmRAYKFxUyyfCV6jdLZhwbTcuQw9Yjwsx0W7JezOJK4A2Cyt048Yl9ddEIUnqBZk8vkBPsXYF3yYlG3olt3f2p1URUoi4Lp96d-5sqabGvPUaS7IE91Vn5P_-lzOjB4vFEeMo6AqsLswi2qvDPCSfyqLKkAJnAdqb4wyJ6R59QFNMxSjCWwjFQBxSHEe_LfBQ-JTC1frNj38Y1fKgnaekkcRNyo5NCQjr0R88qBUm4-K-sl5vvntf7-teErTOWGSYNR-yNjd4PcN4d5RriJ1MXBIfJfEDwecc3thFBlJh65Z59rUrjb2s7lSwbT6ZmZNnwEnZPorHu0wRURr-B2z0WaaGORdEOJ0tyRepkLvAjW_-nc9MPYYJM9TVx8nwQ5dc8yGRuG-ZUANdzNx218P4Sln-D3XJFaDW1wAyrptR9klLaJ4TwJbnWZ6Oyvyoui9qkiyH8x0aph3R57SHMy-rr0c3K8UP9HsvdmdazzjzLRjhtoFyqNaaDlBFSwCWpbOI3przni2zPPTLIk9V082zP-pTPpvvOV4Q7TlkifZF223oJiwimEn1DCctYL7v4S9r_RXlCqleOsLNxfzJkTh403ocnhItDtgSzGJ6Sir1eohQYgtEhpWX1fgbwMM=w2528-h1304",
     tags: [ "WordPress", "Elementor", "Adobe Illustrator"],
     category: "design",
     website: "https://darc.pt/",
   },  
+  /*{
+    id: 4,
+    title: "I Exist",
+    date: "Jan 2021 - Present",
+    description:
+      "",
+    image:
+      "https://lh3.googleusercontent.com/pw/AIL4fc_ydAER7wpDj2umP3j3Zo7QQpkHz3TSD26LfoYu5rQaIzNsM3i2CzON-rad0lSIdgGA86zUwsZ_piP1f_mo5g1Ko7GkQpUaMQHD_LWwbuaLAAfyC_ewu8H3dvTIJyyUXPMe2z-1IO0D071DQhrawdnMcw=w2442-h1220",
+    tags: [ "HTML", "CSS", "JavaScript"],
+    category: "dev",
+    github: "https://github.com/sabrinabertol/iexist",
+    website: "https://sabrinabertol.github.io/iexist/",
+  },*/
   {
     id: 7,
     title: "Hand Drawings",
@@ -271,19 +290,6 @@ export const projects = [
         url: "https://lh3.googleusercontent.com/pw/AIL4fc-CwN4aChBzYxjMyxqEclj1yj0u5lcd0KLbqF8WxlvfEhHMhphEmntWxOgAzdlRT1E28k20qTdg-IW4M__6bCCzBXbTBSQuWMSdfZ8rrLP7OojpgGQzXxe3Gb6G8uyFJxTOfJqK87wl5iWmZT9PniYrrw=w890-h1280",
       },
     ],
-  },
-  {
-    id: 4,
-    title: "I Exist",
-    date: "Jan 2021 - Present",
-    description:
-      "",
-    image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_ydAER7wpDj2umP3j3Zo7QQpkHz3TSD26LfoYu5rQaIzNsM3i2CzON-rad0lSIdgGA86zUwsZ_piP1f_mo5g1Ko7GkQpUaMQHD_LWwbuaLAAfyC_ewu8H3dvTIJyyUXPMe2z-1IO0D071DQhrawdnMcw=w2442-h1220",
-    tags: [ "HTML", "CSS", "JavaScript"],
-    category: "dev",
-    github: "https://github.com/sabrinabertol/iexist",
-    website: "https://sabrinabertol.github.io/iexist/",
   },
   {
     id: 6,

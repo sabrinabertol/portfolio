@@ -44,7 +44,7 @@ export const Title = styled.div`
 export const Desc = styled.div`
   font-size: 18px;
   text-align: center;
-  max-width: 800px;
+  max-width: 600px;
   margin-bottom: 30px;
   color: ${({ theme }) => theme.text_secondary};
   @media (max-width: 768px) {
@@ -139,7 +139,7 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc>
           I believe adaptation is key. It is not about how many languages or tools you already know, but how fast and easily you can learn new ones.
-          I have done a lot of different things in my life, therefore my set of skills is very diverse. 
+          <br />I am always willing to improve myself and learn new things!
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
