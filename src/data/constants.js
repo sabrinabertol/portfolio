@@ -23,7 +23,7 @@ export const skills = [
   {
     title: "Development",
     description:
-    "Passionate about frontend development, I love translating desing into code. Currently I am working on my own projects, trying to learn more about React, NextJs and other technologies.",
+    "Passionate about frontend development, I love translating desing into code. In 2020 I decided to change my career and joined Le Wagon's coding bootcamp. Since then, I've been working as a QA tester and Junior Developer.",
     skills: [
       {
         name: "Ruby",
@@ -104,7 +104,7 @@ export const skills = [
   {
     title: "Design",
     description:
-    "Because of my background in Architecture and Urban Planning, I have a lot of experience with different design softwares. I also love to create illustrations and work with graphic design.",
+    "Because of my background in Architecture and Urban Planning, I have a lot of experience with different design softwares. I also love to create illustrations and work with graphic design, with a keen eye for detail.",
     skills: [
       {
         name: "Figma",
@@ -251,7 +251,7 @@ export const projects = [
     description:
       "DARC (or Desterro) is an association in Lisbon very dear to me. Their website was pretty much non-existent, so I offer to help and create a website for them. Our idea was to keep it very simple, since Desterro is a well kept secret not aiming to attract much attention. I used WordPress and Elementor, and it was a great opportunity to learn more about these tools!",
     image:
-      "https://lh3.googleusercontent.com/pw/AIL4fc_TcX8Oq3ZT0zpjaMQHP2cAbFn8TllbAo2ufmg2Zb8OhwPZj-jNYDI0g0AMOATlwWbaahkp4zwGU-WsbFdYygx2a2wimV-VA125RU5GoNyBagVCP4ROPlVzaN9xdURg-1a_b07iHToUJoVO011V2xEE9M1FEKU8o28dM40_RRSrsN7vdiAVcNvDoIBer3osoQ_P43VTmvc90gJHeYzAkPyAJTnzn4WNIm914XaD9WXefLb0xgTSSRuuhxqqZyb5D9HzDsHkLONOa6rSEqLdEfLy3yHe-4ExmRAYKFxUyyfCV6jdLZhwbTcuQw9Yjwsx0W7JezOJK4A2Cyt048Yl9ddEIUnqBZk8vkBPsXYF3yYlG3olt3f2p1URUoi4Lp96d-5sqabGvPUaS7IE91Vn5P_-lzOjB4vFEeMo6AqsLswi2qvDPCSfyqLKkAJnAdqb4wyJ6R59QFNMxSjCWwjFQBxSHEe_LfBQ-JTC1frNj38Y1fKgnaekkcRNyo5NCQjr0R88qBUm4-K-sl5vvntf7-teErTOWGSYNR-yNjd4PcN4d5RriJ1MXBIfJfEDwecc3thFBlJh65Z59rUrjb2s7lSwbT6ZmZNnwEnZPorHu0wRURr-B2z0WaaGORdEOJ0tyRepkLvAjW_-nc9MPYYJM9TVx8nwQ5dc8yGRuG-ZUANdzNx218P4Sln-D3XJFaDW1wAyrptR9klLaJ4TwJbnWZ6Oyvyoui9qkiyH8x0aph3R57SHMy-rr0c3K8UP9HsvdmdazzjzLRjhtoFyqNaaDlBFSwCWpbOI3przni2zPPTLIk9V082zP-pTPpvvOV4Q7TlkifZF223oJiwimEn1DCctYL7v4S9r_RXlCqleOsLNxfzJkTh403ocnhItDtgSzGJ6Sir1eohQYgtEhpWX1fgbwMM=w2528-h1304",
+      "https://lh3.googleusercontent.com/pw/ADCreHcMpanChZQ2wweIlepKDlTo2d5jtzixRAQ4Jsr38BV_D4kDSemYpc0VMA7-fYsJqrQ-GqLgo6MVi6i99WUjXMIRFcVwfgxjha0Ozy62ml_d1meiSTtmYoKRQuBh7m2d5HvkbiwtOIC8MpiN4FH3NUFsCg=w2528-h1304",
     tags: [ "WordPress", "Elementor", "Adobe Illustrator"],
     category: "design",
     website: "https://darc.pt/",

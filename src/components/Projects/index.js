@@ -11,6 +11,8 @@ const Projects = ({openModal,setOpenModal}) => {
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
+        <Desc>
+          Currently working on personal projects (like this portfolio) to learn more about React, NextJs and other technologies.</Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
