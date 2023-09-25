@@ -223,7 +223,7 @@ export const projects = [
     title: "SpotiFake",
     date: "Sep 2023",
     description:
-      "Recently I had an idea of sharing music that I like with friends, since I have a particular music taste. After that I came across with a great tutorial for a Spotify Clone and decided to give it a try. I really liked the seamless integration between React, NextJS, SupaBase and Vercel, it was my first time using Tailwind but I quite like it! It is still a work in progress, but you can check it out!",
+      "Recently I had an idea of sharing music that I like with friends, since I have a particular music taste. After that, I came across with a great tutorial for a Spotify Clone and decided to give it a try. I really liked the seamless integration between React, NextJS, SupaBase and Vercel. This was my first time using Tailwind and I did enjoy it! It is still a work in progress (more songs to come!), but you can check it out.",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc9fQFI_N03-SO_6_LVUnJeCT3q3R6aQMySMT6fqRfB8rJTh7saODB63Uuh8TqLO1_vExqyB7ky00LMPd_qIbjG6gk2hJF7h_wxyjhxtRLKCsLKnG5fAP_NL_C24on1RDvVnztpd0zbOnfanOCxeUTBXQg=w2560-h1364",
     tags: [ "React", "TypeScript", "HTML", "Tailwind", "NextJs", "Supabase", "Vercel", "Adobe Illustrator"],
@@ -236,10 +236,10 @@ export const projects = [
     title: "Quote of the Day",
     date: "Aug 2023",
     description:
-      "I am very excited about AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back to coding in React, and giving the simplicity of my prompts, I feel like it did a good job! I went back later and restyled it a bit, using some help of Claude this time. (I've been using a lot of AI to help me code and to do a lot more. Let's talk about it!)",
+      "I am very interested in AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back into coding on my own, and giving the simplicity of my prompts, I feel it was a good start! I went back later and reworked on this project, using RapidAPI to provide the quotes and styled components. I wanted to make something useful, so I added a light/dark mode and an auto-quote function, so this could work like a screensaver.",
     image:
       "https://lh3.googleusercontent.com/pw/ADCreHfBYKFh36wG9vSCY6Ky1uY80zAgMMmOJO_g2L5420cyaW22P7y3BDtWr_tTIoiGvOV9qfX7W6WzQGGCkQcKBWHjAAOHXzheG5VnXGiKedcqrq7sSfzOKaO86wBnVG5nxRlys6jOtabRNiNcAvnVjOhkzw=w2560-h1362",
-    tags: [ "ChatGPT", "React", "HTML", "CSS", "JavaScript"],
+    tags: [ "ChatGPT", "React", "RapidAPI", "HTML", "CSS", "JavaScript"],
     category: "dev",
     github: "https://github.com/sabrinabertol/ai-random-quote-generator",
     website: "https://sabrinabertol.github.io/ai-random-quote-generator/",
@@ -282,14 +282,14 @@ export const projects = [
     ],
     category: "art",
     website: "https://www.instagram.com/sabrina_bertol/",
-    images: [
+    /*images: [
       {
         url: "https://lh3.googleusercontent.com/pw/AIL4fc_8VywQcO9ljcFUJY2yDVIayTMsPdXpk6OBcMTI2OgxdFtvPXGCiSajXcWCPjilM4qP_yK0tvimi_YuicdnGT6RXJVqVW-HL94zv11tH0azkLO4dwRcGxi1ibVNQUkoH23lY_f7Mbpc1PFtsGqor5SeKQ=w874-h1280",
       },
       {
         url: "https://lh3.googleusercontent.com/pw/AIL4fc-CwN4aChBzYxjMyxqEclj1yj0u5lcd0KLbqF8WxlvfEhHMhphEmntWxOgAzdlRT1E28k20qTdg-IW4M__6bCCzBXbTBSQuWMSdfZ8rrLP7OojpgGQzXxe3Gb6G8uyFJxTOfJqK87wl5iWmZT9PniYrrw=w890-h1280",
       },
-    ],
+    ],*/
   },
   {
     id: 6,
@@ -305,13 +305,13 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Master Thesis",
-    date: "Feb 2020",
+    title: "Urban Morphology as a Support for Urban Politics",
+    date: "Feb 2020 - Master Thesis",
     description:
-      "",
+      "Since I moved to Lisbon I witnessed the major impacts that tourism and AirBnb had on the city. I was studying Urban Planning and decided to focus my Master Thesis on the impacts of tourism and how Urban Morphology could be used as a tool, not only to understand the city fabric and its characterisctics, but also to help control the impacts of such drastic changes for the city and its population.",
     image:
       "https://lh3.googleusercontent.com/pw/AIL4fc8ubUm1N7ZCqQs5Z-szJhgJlJOjWkoGhpnkQfJTtyWpMcyV3DXYSMSNmjXAuh31dC49kt-VMHpJ8pOOku30WJCeI8BnG6Fb8SzfmlIzTamdp3tlZY7eUYciJb_2td1j_TUEMlseP4LXF2in6vvuamoc9g=w1280-h1280",
-    tags: [ "Urban Planning", "ArcGIS", "Adobe Illustrator", "AutoCad"],
+    tags: [ "Urban Planning", "Urban Analysis", "ArcGIS", "QGIS", "Adobe Illustrator", "AutoCad"],
     category: "design",
     website: "https://sabrinabertol.myportfolio.com/dissertacao",
   },
