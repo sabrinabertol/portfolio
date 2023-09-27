@@ -6,8 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
     return (
-      <div id="about">
-        <HeroContainer>
+        <HeroContainer id="about">
           <HeroBg></HeroBg>
           <HeroInnerContainer>
             <HeroLeftContainer id="Left">
@@ -35,7 +34,6 @@ const HeroSection = () => {
             </HeroRightContainer>
           </HeroInnerContainer>
         </HeroContainer>
-      </div>
     );
 }
 

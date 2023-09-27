@@ -3,15 +3,12 @@ import { AboutContainer, Title, BigTitle } from "./AboutStyle";
 
 const About = () => {
   return (
-    <div id="hero">
-      <AboutContainer>
+      <AboutContainer id="hero">
         <Title>
           WHO IS<br></br>SABRINA<br></br>BERTOL
         </Title>
         <BigTitle>?</BigTitle>
-      </AboutContainer>
-    </div>
-  );
+      </AboutContainer>  );
 };
 
 export default About;

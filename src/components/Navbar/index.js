@@ -1,6 +1,6 @@
 import React from 'react'
 import { Bio } from '../../data/constants';
-import { Nav, NavLink, NavbarContainer, NavLogo, NavItems, MobileIcon, MobileMenu, MobileLink, ResumeButton } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, NavLogo, Image, NavItems, MobileIcon, MobileMenu, MobileLink, ResumeButton } from './NavbarStyledComponent'
 import { FaBars } from 'react-icons/fa';
 import logo from '../../images/logo.svg';
 
@@ -10,9 +10,9 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-        <img src={logo} alt="WISB?" height="30px" color="white" className='Image' />
           {/* eslint-disable-next-line */}
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a>
+            <Image><img src={logo} alt="WISB?" height="30px" /></Image>
           </a>
         </NavLogo>
         <MobileIcon>

@@ -41,6 +41,8 @@ export const NavLogo = styled(LinkR)`
 `;
 
 export const Image = styled(LinkR)`
+cursor: pointer;
+margin-bottom: 20px;
 &:hover {
   opacity: 0.8;
 }  
