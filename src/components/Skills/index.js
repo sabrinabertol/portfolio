@@ -139,7 +139,6 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc>
           I believe adaptation is key. It is not about how many languages or tools you already know, but how fast and easily you can learn new ones.
-          <br />I am always willing to improve myself and learn new things!
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (

@@ -23,8 +23,32 @@ export const skills = [
   {
     title: "Development",
     description:
-    "Passionate about frontend development, I love translating desing into code. In 2020 I decided to change my career and joined Le Wagon's coding bootcamp. Since then, I've been working as a QA tester and Junior Developer.",
+    "Passionate about frontend development, I love translating desing into code. These are currently some of my favorite tools and technologies.",
     skills: [
+      {
+        name: "React Js",
+        image:
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "TypeScript",
+        image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+      },
+      {
+        name: "JavaScript",
+        image:
+        "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png",
+      },
+      {
+        name: "HTML5",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS3",
+        image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
+      },
       {
         name: "Ruby",
         image:
@@ -36,75 +60,21 @@ export const skills = [
           "https://www.svgrepo.com/show/376345/rails.svg",
       },
       {
-        name: "HTML5",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS3",
+        name: "WordPress",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png",
-      },
-      {
-        name: "TypeScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
-      },
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-      {
-        name: "Material UI",
-        image:
-          "https://static-00.iconduck.com/assets.00/material-ui-icon-512x406-fhnu85xg.png",
-      },
-      {
-        name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg",
-      },
-      
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
       },
       {
         name: "AppsScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/2048px-Google_Apps_Script.svg.png",
       },
-      {
-        name: "WordPress",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
-      },
     ],
   },
   {
     title: "Design",
     description:
-    "Because of my background in Architecture and Urban Planning, I have a lot of experience with different design softwares. I also love to create illustrations and work with graphic design, with a keen eye for detail.",
+    "Because of my background in Architecture, I have a lot of experience with different design softwares, with a keen eye for detail.",
     skills: [
       {
         name: "Figma",
@@ -236,9 +206,9 @@ export const projects = [
     title: "Quote of the Day",
     date: "Aug 2023",
     description:
-      "I am very interested in AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back into coding on my own, and giving the simplicity of my prompts, I feel it was a good start! I went back later and reworked on this project, using RapidAPI to provide the quotes and styled components. I wanted to make something useful, so I added a light/dark mode and an auto-quote function, so this could work like a screensaver.",
+      "I am very interested in AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back into coding on my own, and giving the simplicity of my prompts, I feel it was a good start! I went back later and reworked on this project, using RapidAPI to provide the quotes and styled components. I wanted to make something useful, so I added a light/dark mode and an auto-quote function, so this could work as a background.",
     image:
-      "https://lh3.googleusercontent.com/pw/ADCreHfBYKFh36wG9vSCY6Ky1uY80zAgMMmOJO_g2L5420cyaW22P7y3BDtWr_tTIoiGvOV9qfX7W6WzQGGCkQcKBWHjAAOHXzheG5VnXGiKedcqrq7sSfzOKaO86wBnVG5nxRlys6jOtabRNiNcAvnVjOhkzw=w2560-h1362",
+      "https://lh3.googleusercontent.com/pw/ADCreHfiD2QQg78pYFXIorg4LlXjBUKrQgfKodC1Q-V3bZF1WhyrNpfnFnUuruyOibYnq0T3-i8Qj5RUhX2icVpG0gsaVyOlghv8p1vA9Bp5SHnvDhlD6_yfUpNWyZjXJcqxJ4DQiymJOhfWcKCnN4H2E4htM5FC8HHV-KKUplV_yTf_epc454jsvwuz5-gYhkNzLALdIeSbZOegbuGWjJU_JkaO2vzmhTZX1LQ3yKOcymLiGHaiQGwhdchWT6bCwN4b6HjhZXz-ZurPJ39xtvawzISKPWKCH5aUfmKK6KlOFToA44F8xRamHa8nCfjJMTQt55HfV1IK5ktCP4LCBV-cpOmwPRti57g4Ihg1VgO-YnBtwF9JRaDGbNwqtNY1DhmH9YNwmFTPZzm5w2tWbaOAyC181fUEnwUh48EaeRsTJrFVUUVpPabbBO2TvgKdkBt8fZA0aFrT90rgW2tCC7kY49uJJDfvSfhT8rGXgVjCJCORrgqmQ6DkDPnC8Kf3qRsBm1Y5rufrAawteotZwzNdBk9vTj-t2-NLz-yfrJO6q-QFFKptnGZv8v-p-LtbZBeizBYj6zz60CzX-wNq3xWLhM1xG7VRFI5DXjoahpK7KSSKonk_Mn6ZQWJl9GM7y4n_Q6UfoSzl6l2xdUx8TtinRTRW7qWnKBDIdRpq1GMX_-eZwEtHGym2BRIgqhDQTgQ9iyoOs5vJ6X4a0eSIdTBm1bgazXBeg-FwDVBDfyy3k7UNm9H3d6sFI3Wtnv9kFe3DzEKLWMSmNt3BPtxhAbxJ_Jh_8kFfIQHDIeiF2kTe7BceqYyebZu6Mc6CCkk7Z2R5JbB3SD8z6SjImIyXbViP03ksWSlGEQwpC_CNGEVWvV_Tz8qzZetrYI3KLDUPjc9LaIuhfkYRtKATfJj04YTDg44N60w=w2556-h1364",
     tags: [ "ChatGPT", "React", "RapidAPI", "HTML", "CSS", "JavaScript"],
     category: "dev",
     github: "https://github.com/sabrinabertol/ai-random-quote-generator",

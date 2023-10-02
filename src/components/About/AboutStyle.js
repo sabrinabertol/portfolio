@@ -21,12 +21,12 @@ export const Title = styled.div`
   font-weight: 900;
   font-size: 180px;
   text-align: center;
-  line-height: 130px;
+  line-height: 125px;
   color: ${({ theme }) => theme.text_primary};
 
   @media (max-width: 640px) {
     font-size: 60px;
-    line-height: 45px;
+    line-height: 43px;
     margin-bottom: 8px;
   }
 `;

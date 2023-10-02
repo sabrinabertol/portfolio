@@ -1,8 +1,7 @@
 import React from 'react'
-import { HeroContainer, ImageTitle, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SubTitleSmall } from './HeroStyle'
+import { HeroContainer, ImageTitle, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, Title, SubTitle, SubTitleSmall } from './HeroStyle'
 import HeroImg from '../../images/HeroImage.JPEG'
 import { Bio } from '../../data/constants';
-import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
     return (
@@ -10,17 +9,7 @@ const HeroSection = () => {
           <HeroBg></HeroBg>
           <HeroInnerContainer>
             <HeroLeftContainer id="Left">
-              <Title>Hey there, I'm {Bio.name}</Title>
-              <TextLoop>
-                I am a/an
-                <Span>
-                  <TypeAnimation
-                    sequence={Bio.roles}
-                    speed={20}
-                    style={{ display: "inline-block" }}
-                  />
-                </Span>
-              </TextLoop>
+              <Title>Who is she, anyway?</Title>
               <SubTitle>
                 {Bio.description}
                 <SubTitleSmall>

@@ -146,7 +146,7 @@ const Contact = () => {
     <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>I am open to new career opportunities and always looking for challenges. Let's talk about frontend development, webdesign, art or AI. Feel free to reach out to me for any questions!</Desc>
+        <Desc>I am open to new career opportunities and always looking for a challenge. Feel free to reach out to me for any questions!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Let's talk!</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />

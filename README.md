@@ -7,9 +7,9 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ### [Live Website](https://sabrinabertol.github.io/portfolio/)
 ## Some Images:
-<img width="450px;" src="./src/images/1.png"/>
-<img width="450px;" src="./src/images/2.png"/>
-<img width="450px;" src="./src/images/3.png"/>
+<img width="450px;" src="./src/images/hero.png"/>
+<img width="450px;" src="./src/images/about.png"/>
+<img width="450px;" src="./src/images/projects.png"/>
 
 
 ## Table of Contents
@@ -22,14 +22,14 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - [License](#license)
 
 ## Introduction
-*Who is Sabrina Bertol?* is a React.js application that serves as an online portfolio to showcase works, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.
+*Who is Sabrina Bertol?* is a React.js application that serves as an online portfolio to showcase works, skills, and achievements. It provides an overview of my background, displays projects, and offers a way to contact me.
 
 ## Features
 - About Me: An overview of my background, skills, and experiences.
 - Projects: A collection of my notable projects with descriptions, screenshots, and links.
 - Skills: A list of my technical skills and proficiencies.
 - Resume: A link to download my resume.
-- Contact: A form to send me messages or inquiries.
+- Contact: A form to send me e-mails.
 
 ## Technologies Used
 - React.js: A JavaScript library for building user interfaces.
@@ -62,7 +62,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## Acknowledgments
 
-* [ReactJs Portfolio Website Tutorial](https://www.youtube.com/watch?v=ICs29OcEcwQ&list=PL0GcNxYXwTI3bD1t0uvQybdP7XYpppy00&index=5) by Rishav Chanda
-* [Best README Template](https://github.com/othneildrew/Best-README-Template/tree/master)
+* [ReactJs Portfolio Tutorial](https://www.youtube.com/watch?v=ICs29OcEcwQ&list=PL0GcNxYXwTI3bD1t0uvQybdP7XYpppy00&index=5) by Rishav Chanda
+
 
 <p align="right"><a href="#readme-top">back to top</a></p>
