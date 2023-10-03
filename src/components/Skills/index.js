@@ -10,7 +10,6 @@ const Container = styled.div`
   z-index: 1;
   align-items: center;
   margin-top: 30px;
-  margin-bottom: 10%;
 `;
 
 const Wrapper = styled.div`
@@ -53,15 +52,16 @@ export const Desc = styled.div`
 `;
 
 const SkillsContainer = styled.div`
+  margin-top: 40px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
   justify-content: center;
   @media (max-width: 500px) {
     grid-template-columns: repeat(1, 1fr);
   }
-`
+`;
 
 const Skill = styled.div`
   width: 100%;
@@ -76,19 +76,19 @@ const Skill = styled.div`
   }
 `;
 
-
 const SkillTitle = styled.h2`
+  text-align: left;
   font-size: 28px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
   margin-bottom: 20px;
-  text-align: center;
 `;
 
 const SkillDescription = styled.p`
+  text-align: left;
   color: ${({ theme }) => theme.text_secondary};
+  font-size: 16px;
   margin-bottom: 20px;
-  text-align: center;
 `;
 
 const SkillList = styled.div`
@@ -99,7 +99,6 @@ const SkillList = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  justify-content: center;
   gap: 8px;
   place-items: center;
   @media (max-width: 768px) {
@@ -116,7 +115,7 @@ const SkillItem = styled.div`
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 4px;
   place-items: center;
   @media (max-width: 768px) {
     font-size: 14px;
@@ -139,7 +138,6 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc>
           I believe adaptation is key. It is not about how many languages or tools you already know, but how fast and easily you can learn new ones.
-        </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
             <Skill>
@@ -156,6 +154,7 @@ const Skills = () => {
             </Skill>
           ))}
         </SkillsContainer>
+        </Desc>
         </Wrapper>
 
     </Container>

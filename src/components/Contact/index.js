@@ -149,8 +149,8 @@ const Contact = () => {
         <Desc>I am open to new career opportunities and always looking for a challenge. Feel free to reach out to me for any questions!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Let's talk!</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Name" name="from_name" />
+          <ContactInput placeholder="Email" name="from_email" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />

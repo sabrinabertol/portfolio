@@ -3,43 +3,40 @@ import styled from 'styled-components'
 
 const Card = styled.div`
   position: relative;
-  width: 100%;
-  height: 450px;
-  background-color: ${({ theme }) => theme.card};
+  width: 300px;
+  height: 480px;
+  background-color: ${({ theme }) => theme.bgLight};
   cursor: pointer;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
   &:hover {
-    filter: brightness(1.4); 
+    filter: opacity(0.8);
   }
   @media (max-width: 768px) {
     width: 100%;
-    height: 350px;
   }
 `;
 
+
+
 const Image = styled.img`
 width: 100%;
-height: 100%;
+height: 300px;
 object-fit: cover; 
 
 `;
 
 const Details = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.5);
-  color: #fff;
-  padding: 30px;
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-
-  ${Card}:hover & {
-    opacity: 1;
-  }
+text-align: left;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 0px;
+padding: 20px;
 `;
 
 const Title = styled.div`
@@ -66,7 +63,9 @@ const Date = styled.div`
 `
 
 const Description = styled.div`
+text-align: left;
     font-weight: 400;
+    font-size: 14px;
     color: ${({ theme }) => theme.text_primary};
     overflow: hidden;
     margin-top: 8px;
@@ -79,15 +78,15 @@ const Description = styled.div`
 
 const ProjectCards = ({project,setOpenModal}) => {
     return (
-        <Card onClick={() => setOpenModal({state: true, project: project})}>
-        <Image src={project.image}/>
+      <Card onClick={() => setOpenModal({ state: true, project: project })}>
+        <Image src={project.image} />
         <Details>
           <Title>{project.title}</Title>
           <Date>{project.date}</Date>
           <Description>{project.description}</Description>
         </Details>
-        </Card>
-    )
+      </Card>
+    );
 }
 
 export default ProjectCards

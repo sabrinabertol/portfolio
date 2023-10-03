@@ -7,7 +7,6 @@ export const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    margin-bottom: 10%; 
 `;
 
 export const Wrapper = styled.div`
@@ -40,7 +39,7 @@ margin-top: 20px;
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
-    max-width: 600px;
+    max-width: 610px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
         margin-top: 12px;

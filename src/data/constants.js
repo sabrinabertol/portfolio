@@ -21,6 +21,7 @@ export const Bio = {
 
 export const skills = [
   {
+    id: 1,
     title: "Development",
     description:
     "Passionate about frontend development, I love translating desing into code. These are currently some of my favorite tools and technologies.",
@@ -72,6 +73,7 @@ export const skills = [
     ],
   },
   {
+    id: 2,
     title: "Design",
     description:
     "Because of my background in Architecture, I have a lot of experience with different design softwares, with a keen eye for detail.",
@@ -208,7 +210,7 @@ export const projects = [
     description:
       "I am very interested in AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back into coding on my own, and giving the simplicity of my prompts, I feel it was a good start! I went back later and reworked on this project, using RapidAPI to provide the quotes and styled components. I wanted to make something useful, so I added a light/dark mode and an auto-quote function, so this could work as a background.",
     image:
-      "https://lh3.googleusercontent.com/pw/ADCreHfiD2QQg78pYFXIorg4LlXjBUKrQgfKodC1Q-V3bZF1WhyrNpfnFnUuruyOibYnq0T3-i8Qj5RUhX2icVpG0gsaVyOlghv8p1vA9Bp5SHnvDhlD6_yfUpNWyZjXJcqxJ4DQiymJOhfWcKCnN4H2E4htM5FC8HHV-KKUplV_yTf_epc454jsvwuz5-gYhkNzLALdIeSbZOegbuGWjJU_JkaO2vzmhTZX1LQ3yKOcymLiGHaiQGwhdchWT6bCwN4b6HjhZXz-ZurPJ39xtvawzISKPWKCH5aUfmKK6KlOFToA44F8xRamHa8nCfjJMTQt55HfV1IK5ktCP4LCBV-cpOmwPRti57g4Ihg1VgO-YnBtwF9JRaDGbNwqtNY1DhmH9YNwmFTPZzm5w2tWbaOAyC181fUEnwUh48EaeRsTJrFVUUVpPabbBO2TvgKdkBt8fZA0aFrT90rgW2tCC7kY49uJJDfvSfhT8rGXgVjCJCORrgqmQ6DkDPnC8Kf3qRsBm1Y5rufrAawteotZwzNdBk9vTj-t2-NLz-yfrJO6q-QFFKptnGZv8v-p-LtbZBeizBYj6zz60CzX-wNq3xWLhM1xG7VRFI5DXjoahpK7KSSKonk_Mn6ZQWJl9GM7y4n_Q6UfoSzl6l2xdUx8TtinRTRW7qWnKBDIdRpq1GMX_-eZwEtHGym2BRIgqhDQTgQ9iyoOs5vJ6X4a0eSIdTBm1bgazXBeg-FwDVBDfyy3k7UNm9H3d6sFI3Wtnv9kFe3DzEKLWMSmNt3BPtxhAbxJ_Jh_8kFfIQHDIeiF2kTe7BceqYyebZu6Mc6CCkk7Z2R5JbB3SD8z6SjImIyXbViP03ksWSlGEQwpC_CNGEVWvV_Tz8qzZetrYI3KLDUPjc9LaIuhfkYRtKATfJj04YTDg44N60w=w2556-h1364",
+      "https://lh3.googleusercontent.com/pw/ADCreHdc07U5eRW7kqou9BD75ML09x7Laj8dSiYFJ4DQtdIihhAMuTFufdH717i1yRway85EbCnm50UQA9eavhn3HSh4V-CQRbTqJJBxyHqF7vfGxo6HJitt3jrqJ5iusMCMAHmVYdNz7DlExAP026wIljl1JL0ntFB-G3NDKzwBz2sm4KMiZ327yNrxt8EuGC940ReslgEoRUJS6VKnDrpySgoDCUDDUPJEQGF0ifyC413KHWxc-f2rz24rvQr7zg5vrcOT771TtGLcycW8oMcp_vsRdKnLdrOJmYGDEEkzxPkpaDRENpjTL5UHYRHB4TQMrls9g3sz2jaxf-2nHZ6zY7suglfHkNKaiC9BXspS87U2QxsqAJoZgLEBbCMAUdAs09Pk4ZWZJfwW23eJYIY8SvkGHdqcxNFzC2Duu8j5aTvD-aCaUohcEmV5GJ9yvD14t5a507bkCyrRl_6gM6mOWaflA2SSVLhh-JpM_YmlAIac2FAl5nR8ImHAzEvK5chcJGZFYAa1hYyxOY6-w7JOx8aPLN6kfFinsJxOXY03r6RMmhpf1nobL24Z4rrNI6rIaE9f8zK8n568sUmYXJfs8W3P0DOQolCnPFxZVVYOE3uFeefg4A_XEuaJN9tsqOA9uyOwuxFgUEdZ8D-ja9OnwOe-g3qwyH1e6WBPdxuHenefYbncBas7TVi6StYwqusV75ZmO2fcKWiMjhMwEjKwbhCXC5YUyONdAoGRWnCBVw8vjl9E1fmhOzhwL9tFBdssCW58teIMJLP1n81C-Lxbt_73EF_9SjUBCBII9zD3bMVrx-Lsz52VKSAOdv3uwOBjWB6BcBsus6J02PIz_-Woo1qryuQh2vv3oV_KlEW1E5tdOSzo6jUzTlwr29zh0pXpctD6DKrvisoH5tk3YO59vrJnq3M=w2560-h1362",
     tags: [ "ChatGPT", "React", "RapidAPI", "HTML", "CSS", "JavaScript"],
     category: "dev",
     github: "https://github.com/sabrinabertol/ai-random-quote-generator",

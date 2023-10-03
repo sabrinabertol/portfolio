@@ -9,6 +9,7 @@ const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
   return (
     <Container id="projects">
+
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
@@ -35,6 +36,7 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="art" onClick={() => setToggle('art')}>Art</ToggleButton>
           }
         </ToggleButtonGroup>
+        <Desc>
         <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (
@@ -46,6 +48,7 @@ const Projects = ({openModal,setOpenModal}) => {
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
         </CardContainer>
+        </Desc>
       </Wrapper>
     </Container>
   )
