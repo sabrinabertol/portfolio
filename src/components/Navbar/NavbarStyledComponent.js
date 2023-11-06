@@ -42,7 +42,6 @@ export const NavLogo = styled(LinkR)`
 
 export const Image = styled(LinkR)`
 cursor: pointer;
-margin-bottom: 20px;
 &:hover {
   opacity: 0.8;
 }  
@@ -57,7 +56,7 @@ export const NavItems = styled.ul`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 32px;
   padding: 0 6px;
   list-style: none;
@@ -192,28 +191,3 @@ export const MobileNavLogo = styled(LinkR)`
 `;
 
 
-export const ResumeButton = styled.a`
-
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    width: 50%;
-    max-width: 180px;
-    text-align: center;
-    padding: 12px 0;
-    color:${({ theme }) => theme.white};
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    background: ${({ theme }) => theme.primary};
-    &:hover {
-      background-color: ${({ theme }) => theme.primary + 80};
-      color: ${({ theme }) => theme.text_primary + 80};
-  }    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 14px;
-        align-self: right;
-    } 
-`;

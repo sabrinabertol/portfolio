@@ -11,7 +11,7 @@ export const Bio = {
     ""
   ],
   description:
-    "It is hard to describe myself in a single word. I am an architect who turned web developer, but I also love design, music, arts and many other things. I decided to take this chance to show some of my work in different areas, because experiences are also lived outside of work, and people are more than just a set of skills!",
+    "It is hard to describe myself in a single word. I am an architect turned developer, but I also love design, music, arts and many other things. I decided to take this opportunity to show what I do in different areas, because experiences are also lived outside of work, and people are more than a set of skills!",
   github: "https://github.com/sabrinabertol",
   resume:
     "https://drive.google.com/file/d/1642m3jS-YxhPnqFPYwP5iR1UXAdV8g10/view?usp=sharing",
@@ -24,12 +24,17 @@ export const skills = [
     id: 1,
     title: "Development",
     description:
-    "Passionate about frontend development, I love translating desing into code. These are currently some of my favorite tools and technologies.",
+    "I am passionate about front end development and love translating design into code. These are some of my favorite tools and technologies.",
     skills: [
       {
         name: "React Js",
         image:
         "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Svelte",
+        image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png",
       },
       {
         name: "TypeScript",
@@ -49,26 +54,6 @@ export const skills = [
         name: "CSS3",
         image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
-      },
-      {
-        name: "Ruby",
-        image:
-          "https://icon-library.com/images/ruby-icon-png/ruby-icon-png-6.jpg",
-      },
-      {
-        name: "Ruby on Rails",
-        image:
-          "https://www.svgrepo.com/show/376345/rails.svg",
-      },
-      {
-        name: "WordPress",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
-      },
-      {
-        name: "AppsScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/2048px-Google_Apps_Script.svg.png",
       },
     ],
   },
@@ -99,10 +84,11 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/2101px-Adobe_InDesign_CC_icon.svg.png",
       },
       {
-        name: "Elementor",
+        name: "Canva",
         image:
-          "https://elementor.com/marketing/wp-content/uploads/2021/10/Elementor-Logo-Symbol-Red.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png",
       },
+
     ],
   },
 ];
@@ -191,6 +177,19 @@ export const education = [
 
 export const projects = [
   {
+    id: 0,
+    title: "Svelte Memory Game",
+    date: "Oct 2023",
+    description:
+      "",
+    image:
+      "https://lh3.googleusercontent.com/pw/ADCreHe44_H-MDwEy76rGqkWD3XYDe0NZd_Cw9WgYyjzWWgEepRv7ZNAPIU9-4Gl1SoyDtEj4oSD-TqPfbLMwmSff87mQuvvgTxeOq5f4j8QQAEhT6ajF_HJWl8OjbzJmgnevssYu3Bo1EGEAhQVPfMPogSO1g=w2880-h1474",
+    tags: [ "Svelte", "TypeScript", "HTML", "CSS", "Vercel"],
+    category: "dev",
+    github: "https://github.com/sabrinabertol/memory-game",
+    website: "https://memory-game-one-eosin.vercel.app/",
+  },
+  {
     id: 1,
     title: "SpotiFake",
     date: "Sep 2023",
@@ -210,7 +209,7 @@ export const projects = [
     description:
       "I am very interested in AI and decided to use ChatGPT4 to create a simple React app that generates random quotes. I was recently back into coding on my own, and giving the simplicity of my prompts, I feel it was a good start! I went back later and reworked on this project, using RapidAPI to provide the quotes and styled components. I wanted to make something useful, so I added a light/dark mode and an auto-quote function, so this could work as a background.",
     image:
-      "https://lh3.googleusercontent.com/pw/ADCreHdc07U5eRW7kqou9BD75ML09x7Laj8dSiYFJ4DQtdIihhAMuTFufdH717i1yRway85EbCnm50UQA9eavhn3HSh4V-CQRbTqJJBxyHqF7vfGxo6HJitt3jrqJ5iusMCMAHmVYdNz7DlExAP026wIljl1JL0ntFB-G3NDKzwBz2sm4KMiZ327yNrxt8EuGC940ReslgEoRUJS6VKnDrpySgoDCUDDUPJEQGF0ifyC413KHWxc-f2rz24rvQr7zg5vrcOT771TtGLcycW8oMcp_vsRdKnLdrOJmYGDEEkzxPkpaDRENpjTL5UHYRHB4TQMrls9g3sz2jaxf-2nHZ6zY7suglfHkNKaiC9BXspS87U2QxsqAJoZgLEBbCMAUdAs09Pk4ZWZJfwW23eJYIY8SvkGHdqcxNFzC2Duu8j5aTvD-aCaUohcEmV5GJ9yvD14t5a507bkCyrRl_6gM6mOWaflA2SSVLhh-JpM_YmlAIac2FAl5nR8ImHAzEvK5chcJGZFYAa1hYyxOY6-w7JOx8aPLN6kfFinsJxOXY03r6RMmhpf1nobL24Z4rrNI6rIaE9f8zK8n568sUmYXJfs8W3P0DOQolCnPFxZVVYOE3uFeefg4A_XEuaJN9tsqOA9uyOwuxFgUEdZ8D-ja9OnwOe-g3qwyH1e6WBPdxuHenefYbncBas7TVi6StYwqusV75ZmO2fcKWiMjhMwEjKwbhCXC5YUyONdAoGRWnCBVw8vjl9E1fmhOzhwL9tFBdssCW58teIMJLP1n81C-Lxbt_73EF_9SjUBCBII9zD3bMVrx-Lsz52VKSAOdv3uwOBjWB6BcBsus6J02PIz_-Woo1qryuQh2vv3oV_KlEW1E5tdOSzo6jUzTlwr29zh0pXpctD6DKrvisoH5tk3YO59vrJnq3M=w2560-h1362",
+      "https://lh3.googleusercontent.com/pw/ADCreHfshFB964YATShHm1wb7gCV5LsI7DWVYoJO9CYsyQ-lM34im8W7X7sX06xDTtb_h_lBl0NMoZGkHl2aVeCtz9-DkSkPS4jRk2awxsq7rtxH7iiUMJ38IRoSPqOVJAYtFYYLtCLYvjgmah9-sR4gRPAUCQ=w2880-h1474",
     tags: [ "ChatGPT", "React", "RapidAPI", "HTML", "CSS", "JavaScript"],
     category: "dev",
     github: "https://github.com/sabrinabertol/ai-random-quote-generator",

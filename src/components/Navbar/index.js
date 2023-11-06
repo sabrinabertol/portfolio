@@ -1,6 +1,5 @@
 import React from 'react'
-import { Bio } from '../../data/constants';
-import { Nav, NavLink, NavbarContainer, NavLogo, Image, NavItems, MobileIcon, MobileMenu, MobileLink, ResumeButton } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, NavLogo, Image, NavItems, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import { FaBars } from 'react-icons/fa';
 import logo from '../../images/logo.svg';
 
@@ -25,7 +24,6 @@ const Navbar = () => {
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#contact'>Contact</NavLink>
-          <ResumeButton href={Bio.resume} target="display">Check my CV!</ResumeButton>
         </NavItems>
         {
           isOpen &&
@@ -42,9 +40,6 @@ const Navbar = () => {
             <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen)
             }}>Contact</MobileLink>
-            <ResumeButton href={Bio.resume} target="display">
-                Check my CV!
-            </ResumeButton>
           </MobileMenu>
         }
       </NavbarContainer>

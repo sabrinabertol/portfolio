@@ -264,7 +264,7 @@ const index = ({ openModal, setOpenModal }) => {
               )}
 
               <Button href={project?.website} target="new">
-                View Website
+                Visit Project
               </Button>
             </ButtonGroup>
           </Wrapper>

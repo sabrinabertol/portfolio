@@ -36,13 +36,23 @@ margin-top: 20px;
   }
 `;
 
-export const Desc = styled.div`
+export const Subtitle = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 610px;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
-        margin-top: 12px;
+        font-size: 16px;
+    }
+`;
+
+export const Desc = styled.div`
+    font-size: 18px;
+    text-align: center;
+    max-width: 910px;
+    color: ${({ theme }) => theme.text_secondary};
+    @media (max-width: 768px) {
+        margin-top: 21px;
         font-size: 16px;
     }
 `;
@@ -52,7 +62,7 @@ export const ToggleButtonGroup = styled.div`
     color: ${({ theme }) => theme.primary};
     font-size: 16px;
     font-weight: 500;
-    margin: 22px 0px;
+    margin: 21px 0px;
     @media (max-width: 768px) {
         font-size: 12px;
     }
@@ -81,9 +91,9 @@ export const CardContainer = styled.div`
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     @media (max-width: 960px) {
-         grid-template-columns: repeat(2, 1fr);
+         grid-template-columns: repeat(3, 1fr);
      }
      @media (max-width: 640px) {
          grid-template-columns: repeat(1, 1fr);

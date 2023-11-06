@@ -67,13 +67,6 @@ const ContactForm = styled.form`
   gap: 12px;
 `
 
-const ContactTitle = styled.div`
-  font-size: 24px;
-  margin-bottom: 6px;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
-`
-
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
@@ -148,7 +141,6 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>I am open to new career opportunities and always looking for a challenge. Feel free to reach out to me for any questions!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Let's talk!</ContactTitle>
           <ContactInput placeholder="Name" name="from_name" />
           <ContactInput placeholder="Email" name="from_email" />
           <ContactInput placeholder="Subject" name="subject" />

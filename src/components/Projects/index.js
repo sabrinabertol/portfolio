@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton } from './ProjectsStyle'
+import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Subtitle } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
@@ -12,8 +12,8 @@ const Projects = ({openModal,setOpenModal}) => {
 
       <Wrapper>
         <Title>Projects</Title>
-        <Desc>
-          Currently working on personal projects (like this portfolio!) to learn more about React, NextJs and other technologies.</Desc>
+        <Subtitle>
+          Currently working on personal projects (like this portfolio!) to learn more about React, NextJs and other technologies.</Subtitle>
         <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>

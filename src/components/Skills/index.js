@@ -46,6 +46,7 @@ export const Desc = styled.div`
   max-width: 600px;
   margin-bottom: 30px;
   color: ${({ theme }) => theme.text_secondary};
+  width: 100%;
   @media (max-width: 768px) {
     font-size: 16px;
   }
@@ -53,9 +54,8 @@ export const Desc = styled.div`
 
 const SkillsContainer = styled.div`
   margin-top: 40px;
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   justify-content: center;
   @media (max-width: 500px) {
@@ -64,7 +64,6 @@ const SkillsContainer = styled.div`
 `;
 
 const Skill = styled.div`
-  width: 100%;
   background: ${({ theme }) => theme.card};
   border: 0.5px solid ${({ theme }) => theme.bgLight};
   padding: 36px 18px;
@@ -97,7 +96,7 @@ const SkillList = styled.div`
   flex-wrap: wrap;
   margin-bottom: 10px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 8px;
   place-items: center;
@@ -138,22 +137,22 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc>
           I believe adaptation is key. It is not about how many languages or tools you already know, but how fast and easily you can learn new ones.
-        <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill>
-              <SkillTitle>{skill.title}</SkillTitle>
-              <SkillDescription>{skill.description}</SkillDescription>
-              <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image} />
-                    {item.name}
-                  </SkillItem>
-                ))}
-              </SkillList>
-            </Skill>
-          ))}
-        </SkillsContainer>
+          <SkillsContainer>
+            {skills.map((skill) => (
+              <Skill>
+                <SkillTitle>{skill.title}</SkillTitle>
+                <SkillDescription>{skill.description}</SkillDescription>
+                <SkillList>
+                  {skill.skills.map((item) => (
+                    <SkillItem>
+                      <SkillImage src={item.image} />
+                      {item.name}
+                    </SkillItem>
+                  ))}
+                </SkillList>
+              </Skill>
+            ))}
+          </SkillsContainer>
         </Desc>
         </Wrapper>
 
